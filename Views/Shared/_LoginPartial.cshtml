@@ -1,0 +1,23 @@
+﻿@if (Context.User.Identity.Name != null)
+{
+    <form asp-controller="Login" asp-action="LogOut" method="post" id="Logoutform" class="navbar-right">
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                Hello @Context.User.Identity.Name
+            </li>
+            <li>
+                <button type="submit" class="btn btn-link navbar-btn navbar-link">LogOut</button>
+            </li>
+        </ul>
+    </form>
+}
+
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li><a class="nav-link text-dark" asp-controller="Register" asp-action="Register">Register</a></li>
+        <li><a class="nav-link text-dark" asp-controller="Login" asp-action="Login">Login</a></li>
+    </ul>
+}
+
+
