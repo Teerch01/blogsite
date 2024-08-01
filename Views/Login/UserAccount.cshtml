@@ -7,5 +7,13 @@
 <h4> Hello @ViewBag.Name</h4>
 
 <div class="form-group">
-    <input type="button" value="Post" class="btn btn-primary" />
+    <a class="btn btn-primary" type="button" asp-controller="Post" asp-action="CreatePost">
+        Create Post
+    </a>
+
+    <a class="btn btn-primary" type="button" asp-controller="Post" asp-action="ViewPost">
+        View Post
+    </a>
+    
+    
 </div>

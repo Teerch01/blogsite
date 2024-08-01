@@ -12,8 +12,8 @@ using blogsite.Data;
 namespace blogsite.Migrations
 {
     [DbContext(typeof(BlogContext))]
-    [Migration("20240731140017_updated models")]
-    partial class updatedmodels
+    [Migration("20240731225432_updated post model")]
+    partial class updatedpostmodel
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,9 +27,11 @@ namespace blogsite.Migrations
 
             modelBuilder.Entity("blogsite.Models.Posts", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Content")
                         .IsRequired()

@@ -23,13 +23,13 @@ public class BlogService(BlogContext context) : IBlogService
         return user;
     }
 
-    public async Task CreatePostAsync(string title, string content, string username)
+    public async Task CreatePostAsync(string title, string content, Guid userid)
     {
-        Posts post = new Posts
+        Posts post = new()
         {
             Title = title,
             Content = content,
-            UserName = username
+            UserId = userid
         };
         await _context.Posts.AddAsync(post);
         await _context.SaveChangesAsync();
@@ -61,7 +61,7 @@ public class BlogService(BlogContext context) : IBlogService
         return user;
     }
 
-    public async Task DeletePostAsync(Guid id)
+    public async Task DeletePostAsync(int id)
     {
         var post = await _context.Posts.FindAsync(id);
         _context.Posts.Remove(post);
@@ -75,7 +75,7 @@ public class BlogService(BlogContext context) : IBlogService
         await _context.SaveChangesAsync();
     }
 
-    public async Task<Posts> EditPostAsync(Guid postId, string post)
+    public async Task<Posts> EditPostAsync(int postId, string post)
     {
         var updatedpost = await _context.Posts.FindAsync(postId);
         updatedpost.Content = post;
@@ -88,14 +88,21 @@ public class BlogService(BlogContext context) : IBlogService
         return await _context.Users.AnyAsync(u => u.Email == email);
     }
 
-    public async Task<Posts> GetPostByIdAsync(Guid id)
+    public async Task<Posts> GetPostByIdAsync(int id)
     {
         return await _context.Posts.AsNoTracking().SingleAsync(u => u.Id == id);
     }
 
-    public async Task<ActionResult<IEnumerable<Posts>>> GetPostsOfUserById(string username)
+    public async Task<IEnumerable<Posts>> GetPostsOfUserById(Guid id)
     {
-        return await _context.Posts.AsNoTracking().Where(u => u.UserName == username).ToListAsync();
+        var posts = await _context.Posts.AsNoTracking().Where(u => u.UserId == id).ToListAsync();
+        if (posts.Count != 0)
+        {
+            return posts;
+        }
+
+        return null;
+        
     }
 
     public async Task<User> GetUserByEmailAsync(string email)
@@ -111,5 +118,16 @@ public class BlogService(BlogContext context) : IBlogService
     public async Task<bool> UserAlreadyExists(string userName)
     {
         return await _context.Users.AnyAsync(u => u.Username == userName);
+    }
+
+    public async Task<int> LikePost(int postid)
+    {
+        var post = await _context.Posts.FindAsync(postid);
+        var like = post.Likes;
+        like = like += 1;
+
+        post.Likes = like;
+        await _context.SaveChangesAsync();
+        return like;
     }
 }

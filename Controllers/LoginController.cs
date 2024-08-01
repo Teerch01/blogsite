@@ -21,7 +21,7 @@ namespace blogsite.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = await _service.AutenticateUserAsync(login.UsernameOrPassword, login.Password);
+                var user = await _service.AutenticateUserAsync(login.UsernameOrEmail, login.Password);
                 if (user == null)
                 {
                     ModelState.AddModelError("", "Username/Email or password is incorrect");
@@ -29,9 +29,8 @@ namespace blogsite.Controllers
 
                 // Success, create cookie
                 var claims = new List<Claim> {
-                    new(ClaimTypes.Name, user.Username),
+                    new(ClaimTypes.Name, user.Email),
                     new(ClaimTypes.Role, "User"),
-                    new(ClaimTypes.PrimarySid, user.Id.ToString()),
                     };
 
                 var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

@@ -12,9 +12,9 @@
         <form asp-action="Login">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="UsernameOrPassword" class="control-label"></label>
-                <input asp-for="UsernameOrPassword" class="form-control" />
-                <span asp-validation-for="UsernameOrPassword" class="text-danger"></span>
+                <label asp-for="UsernameOrEmail" class="control-label"></label>
+                <input asp-for="UsernameOrEmail" class="form-control" />
+                <span asp-validation-for="UsernameOrEmail" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Password" class="control-label"></label>
@@ -29,9 +29,12 @@
 </div>
 
 <div>
-    Don't have an account? <a asp-controller="Register", asp-action="Register">Click here to register</a>
+    Don't have an account? <a asp-controller="Register" asp-action="Register" style="text-decoration: none;">Click here
+        to register</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
