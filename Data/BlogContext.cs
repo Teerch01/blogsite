@@ -6,11 +6,13 @@ public class BlogContext(DbContextOptions<BlogContext> options) : DbContext(opti
 {
 	public DbSet<User> Users { get; set; }
 	public DbSet<Posts> Posts { get; set; }
+	public DbSet<Likes> Likes { get; set; }
 
 	protected override void OnModelCreating(ModelBuilder modelBuilder)
 	{
 		modelBuilder.Entity<User>().ToTable(nameof(User));
 		modelBuilder.Entity<Posts>().ToTable(nameof(Posts));
+		modelBuilder.Entity<Likes>().ToTable(nameof(Likes));
 
 
 		modelBuilder.Entity<User>().HasKey(x => x.Id);
@@ -28,6 +30,11 @@ public class BlogContext(DbContextOptions<BlogContext> options) : DbContext(opti
 		modelBuilder.Entity<Posts>().Property(x => x.Title).IsRequired();
 		modelBuilder.Entity<Posts>().Property(x => x.Content).IsRequired();
 
+
+		modelBuilder.Entity<Likes>().HasKey(x => x.Id);
+		modelBuilder.Entity<Posts>().Property(x => x.Id).ValueGeneratedOnAdd();
+
+
 		// RELATIONSHIP
 		modelBuilder
 			.Entity<User>()
@@ -35,7 +42,6 @@ public class BlogContext(DbContextOptions<BlogContext> options) : DbContext(opti
 			.WithOne(x => x.User)
 			.HasForeignKey(x => x.UserId)
 			.OnDelete(DeleteBehavior.Restrict);
-	
 	}
 	
 }

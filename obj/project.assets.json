@@ -6524,11 +6524,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Desktop\\fast-endpoints\\blogsite\\blogsite.csproj",
+      "projectUniqueName": "D:\\Desktop\\fast-endpoints\\blogsite\\blogsite.csproj",
       "projectName": "blogsite",
-      "projectPath": "d:\\Desktop\\fast-endpoints\\blogsite\\blogsite.csproj",
+      "projectPath": "D:\\Desktop\\fast-endpoints\\blogsite\\blogsite.csproj",
       "packagesPath": "C:\\Users\\oyund\\.nuget\\packages\\",
-      "outputPath": "d:\\Desktop\\fast-endpoints\\blogsite\\obj\\",
+      "outputPath": "D:\\Desktop\\fast-endpoints\\blogsite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\oyund\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -6,8 +6,12 @@
                 Hello @Context.User.Identity.Name
             </li>
             <li>
-                <button type="submit" class="btn btn-link navbar-btn navbar-link">LogOut</button>
+                <a class="btn btn-link navbar-btn navbar-link text-decoration-none" asp-controller="Login" asp-action="UserAccount">Account</a>
             </li>
+            <li>
+                <button type="submit" class="btn btn-link navbar-btn navbar-link text-decoration-none">LogOut</button>
+            </li>
+
         </ul>
     </form>
 }

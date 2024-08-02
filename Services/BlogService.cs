@@ -1,5 +1,6 @@
 using blogsite.Data;
 using blogsite.Models;
+using blogsite.Models.DTO.ResponseDTO;
 using blogsite.Repository;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,13 +24,14 @@ public class BlogService(BlogContext context) : IBlogService
         return user;
     }
 
-    public async Task CreatePostAsync(string title, string content, Guid userid)
+    public async Task CreatePostAsync(string title, string content, Guid userid, string username)
     {
         Posts post = new()
         {
             Title = title,
             Content = content,
-            UserId = userid
+            UserId = userid,
+            Username = username
         };
         await _context.Posts.AddAsync(post);
         await _context.SaveChangesAsync();
@@ -93,6 +95,11 @@ public class BlogService(BlogContext context) : IBlogService
         return await _context.Posts.AsNoTracking().SingleAsync(u => u.Id == id);
     }
 
+    public async Task<IEnumerable<Posts>> GetPostsAsync()
+    {
+        return await _context.Posts.AsNoTracking().OrderBy(p => p.CreatedOn).ToListAsync();
+    }
+
     public async Task<IEnumerable<Posts>> GetPostsOfUserById(Guid id)
     {
         var posts = await _context.Posts.AsNoTracking().Where(u => u.UserId == id).ToListAsync();
@@ -102,12 +109,12 @@ public class BlogService(BlogContext context) : IBlogService
         }
 
         return null;
-        
+
     }
 
-    public async Task<User> GetUserByEmailAsync(string email)
+    public async Task<User> GetUserByUserNameAsync(string username)
     {
-        return await _context.Users.AsNoTracking().FirstAsync(u => u.Email == email);
+        return await _context.Users.AsNoTracking().FirstAsync(u => u.Username == username);
     }
 
     public async Task<IEnumerable<User>> GetUsersAsync()
@@ -120,14 +127,30 @@ public class BlogService(BlogContext context) : IBlogService
         return await _context.Users.AnyAsync(u => u.Username == userName);
     }
 
-    public async Task<int> LikePost(int postid)
+    public async Task LikePost(int id, Guid userid)
     {
-        var post = await _context.Posts.FindAsync(postid);
-        var like = post.Likes;
-        like = like += 1;
+        var post = await _context.Posts.FindAsync(id);
+        var existingLike = await _context.Likes.FirstOrDefaultAsync(u => u.PostId == post.Id && u.UserId == userid);
 
-        post.Likes = like;
+        if (existingLike == null)
+        {
+            var like = new Likes
+            {
+                PostId = post.Id,
+                UserId = userid
+            };
+            _context.Likes.Add(like);
+            post.LikeCount++;
+            post.LikedByCurrentUser = true;
+        }
+
+        else
+        {
+            // User has already liked the post, remove the like
+            _context.Likes.Remove(existingLike);
+            post.LikeCount--;
+            post.LikedByCurrentUser = false;
+        }
         await _context.SaveChangesAsync();
-        return like;
     }
 }

@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\Desktop\\fast-endpoints\\blogsite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|d:\\desktop\\fast-endpoints\\blogsite\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|d:\\desktop\\fast-endpoints\\blogsite\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|d:\\desktop\\fast-endpoints\\blogsite\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|d:\\desktop\\fast-endpoints\\blogsite\\views\\post\\viewpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:views\\post\\viewpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|d:\\desktop\\fast-endpoints\\blogsite\\repository\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:repository\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|d:\\desktop\\fast-endpoints\\blogsite\\data\\blogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:data\\blogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IBlogService.cs",
-              "DocumentMoniker": "D:\\Desktop\\fast-endpoints\\blogsite\\Repository\\IBlogService.cs",
-              "RelativeDocumentMoniker": "Repository\\IBlogService.cs",
-              "ToolTip": "D:\\Desktop\\fast-endpoints\\blogsite\\Repository\\IBlogService.cs",
-              "RelativeToolTip": "Repository\\IBlogService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA7AAAA",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Desktop\\fast-endpoints\\blogsite\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Desktop\\fast-endpoints\\blogsite\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T01:43:36.615Z",
+              "WhenOpened": "2024-08-02T12:31:56.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BlogService.cs",
-              "DocumentMoniker": "D:\\Desktop\\fast-endpoints\\blogsite\\Services\\BlogService.cs",
-              "RelativeDocumentMoniker": "Services\\BlogService.cs",
-              "ToolTip": "D:\\Desktop\\fast-endpoints\\blogsite\\Services\\BlogService.cs",
-              "RelativeToolTip": "Services\\BlogService.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAIwIAAAAAaAAAA",
+              "Title": "BlogContext.cs",
+              "DocumentMoniker": "D:\\Desktop\\fast-endpoints\\blogsite\\Data\\BlogContext.cs",
+              "RelativeDocumentMoniker": "Data\\BlogContext.cs",
+              "ToolTip": "D:\\Desktop\\fast-endpoints\\blogsite\\Data\\BlogContext.cs",
+              "RelativeToolTip": "Data\\BlogContext.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAkwCsAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T01:36:46.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ViewPost.cshtml",
-              "DocumentMoniker": "D:\\Desktop\\fast-endpoints\\blogsite\\Views\\Post\\ViewPost.cshtml",
-              "RelativeDocumentMoniker": "Views\\Post\\ViewPost.cshtml",
-              "ToolTip": "D:\\Desktop\\fast-endpoints\\blogsite\\Views\\Post\\ViewPost.cshtml",
-              "RelativeToolTip": "Views\\Post\\ViewPost.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-31T23:09:13.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "D:\\Desktop\\fast-endpoints\\blogsite\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PostController.cs",
-              "ToolTip": "D:\\Desktop\\fast-endpoints\\blogsite\\Controllers\\PostController.cs",
-              "RelativeToolTip": "Controllers\\PostController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCMAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T16:32:23.947Z",
+              "WhenOpened": "2024-08-02T12:27:42.404Z",
               "EditorCaption": ""
             }
           ]
