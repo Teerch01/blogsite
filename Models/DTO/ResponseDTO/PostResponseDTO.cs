@@ -8,4 +8,5 @@ public class PostResponseDTO
     public int LikeCount { get; set; }
     public string? Username { get; set; }
     public bool LikedByCurrentUser { get; set; }
+    public DateTime CreatedOn { get; set; }
 }

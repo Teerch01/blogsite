@@ -1,8 +1,8 @@
 ﻿@if (Context.User.Identity.Name != null)
 {
     <form asp-controller="Login" asp-action="LogOut" method="post" id="Logoutform" class="navbar-right">
-        <ul class="nav navbar-nav navbar-right">
-            <li>
+        <ul class="nav navbar-nav navbar-left">
+            <li style="align-content:center">
                 Hello @Context.User.Identity.Name
             </li>
             <li>

@@ -46,10 +46,17 @@ namespace blogsite.Controllers
 			{
 				try
 				{
-					var posts = await _service.GetPostsAsync();
+                    var username = HttpContext.User.Identity.Name;
+                    var user = await _service.GetUserByUserNameAsync(username);
+
+                    var posts = await _service.GetPostsAsync();
 					if (posts != null)
 					{
-						return View(posts.Select(_mapper.Map<PostResponseDTO>));
+                        foreach (var post in posts)
+                        {
+							post.LikedByCurrentUser = await _service.HasUserLikedPost(post.Id, user.Id);   
+                        }
+                        return View(posts.Select(_mapper.Map<PostResponseDTO>));
 					}
 
 					return View();
@@ -68,7 +75,7 @@ namespace blogsite.Controllers
 		public async Task<IActionResult> LikePost(int id)
 		{
 			var username = HttpContext.User.Identity.Name;
-			var user = await _service.GetUserByUserNameAsync(username).ConfigureAwait(false);
+			var user = await _service.GetUserByUserNameAsync(username);
 			if (ModelState.IsValid)
 			{
 				await _service.LikePost(id, user.Id);

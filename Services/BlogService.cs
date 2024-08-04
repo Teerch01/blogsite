@@ -3,6 +3,7 @@ using blogsite.Models;
 using blogsite.Models.DTO.ResponseDTO;
 using blogsite.Repository;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
 
 namespace blogsite.Services;
 
@@ -10,11 +11,11 @@ public class BlogService(BlogContext context) : IBlogService
 {
     private readonly BlogContext _context = context;
 
-    public async Task<User> AutenticateUserAsync(string usernameorpassword, string password)
+    public async Task<User> AutenticateUserAsync(string usernameoremail, string password)
     {
 
         var user = await _context.Users.Where(u =>
-            (u.Username == usernameorpassword || u.Email == usernameorpassword) && u.Password == password).FirstOrDefaultAsync();
+            (u.Username == usernameoremail || u.Email == usernameoremail) && u.Password == password).FirstOrDefaultAsync();
 
         if (user == null)
         {
@@ -40,7 +41,7 @@ public class BlogService(BlogContext context) : IBlogService
     }
 
     public async Task<User> CreateUserAsync(
-        [FromBody] string firstname,
+        string firstname,
         string lastname,
         string username,
         string password,
@@ -63,9 +64,9 @@ public class BlogService(BlogContext context) : IBlogService
         return user;
     }
 
-    public async Task DeletePostAsync(int id)
+    public async Task DeletePostAsync(int postid)
     {
-        var post = await _context.Posts.FindAsync(id);
+        var post = await _context.Posts.FindAsync(postid);
         _context.Posts.Remove(post);
         await _context.SaveChangesAsync();
     }
@@ -77,10 +78,11 @@ public class BlogService(BlogContext context) : IBlogService
         await _context.SaveChangesAsync();
     }
 
-    public async Task<Posts> EditPostAsync(int postId, string post)
+    public async Task<Posts> EditPostAsync(int postid, string title, string content)
     {
-        var updatedpost = await _context.Posts.FindAsync(postId);
-        updatedpost.Content = post;
+        var updatedpost = await _context.Posts.FindAsync(postid);
+        updatedpost.Title = title;
+        updatedpost.Content = content;
         await _context.SaveChangesAsync();
         return updatedpost;
     }
@@ -90,9 +92,9 @@ public class BlogService(BlogContext context) : IBlogService
         return await _context.Users.AnyAsync(u => u.Email == email);
     }
 
-    public async Task<Posts> GetPostByIdAsync(int id)
+    public async Task<Posts> GetPostByIdAsync(int postid)
     {
-        return await _context.Posts.AsNoTracking().SingleAsync(u => u.Id == id);
+        return await _context.Posts.AsNoTracking().SingleAsync(u => u.Id == postid);
     }
 
     public async Task<IEnumerable<Posts>> GetPostsAsync()
@@ -109,7 +111,6 @@ public class BlogService(BlogContext context) : IBlogService
         }
 
         return null;
-
     }
 
     public async Task<User> GetUserByUserNameAsync(string username)
@@ -152,5 +153,21 @@ public class BlogService(BlogContext context) : IBlogService
             post.LikedByCurrentUser = false;
         }
         await _context.SaveChangesAsync();
+    }
+
+    public async Task<bool> HasUserLikedPost(int postid, Guid userid)
+    {
+        var post = await _context.Posts.FindAsync(postid);
+        var existingLike = await _context.Likes.FirstOrDefaultAsync(u => u.PostId == post.Id && u.UserId == userid);
+        if (existingLike == null)
+        {
+            post.LikedByCurrentUser = false;
+            return false;
+        }
+        else
+        {
+            post.LikedByCurrentUser = true;
+            return true;
+        }
     }
 }

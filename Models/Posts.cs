@@ -7,7 +7,7 @@ public class Posts : Time
     public string? Content { get; set; }
     public Guid UserId { get; set; }
     public string? Username { get; set; }
-    public bool LikedByCurrentUser { get; set; }
+    public bool LikedByCurrentUser { get; set; } = false;
     public int LikeCount { get; set; }
     public virtual User? User { get; set; }
 }
