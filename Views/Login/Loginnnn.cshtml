@@ -1,0 +1,44 @@
+﻿@model blogsite.Models.DTO.RequestDTO.LoginRequestDTO
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1 class="row justify-content-center" style="padding-top:50px; padding-bottom:10px" >Login</h1>
+
+<div class="form justify-content-center" >
+    <div class="col-md-4 row">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating row" style="padding-bottom:10px">
+                <input asp-for="UsernameOrEmail" id="floatingusername" 
+                    placeholder="UsernameOrEmail" class="form-control" />
+                <label asp-for="UsernameOrEmail" for="floatingusername" 
+                    class="control-label">UsernameOrEmail
+                </label>
+                <span asp-validation-for="UsernameOrEmail" class="text-danger"></span>
+            </div>
+            <div class="form-floating row" style="padding-bottom:10px">
+                <input type="password" id="floatingpassoword" placeholder="Password" 
+                    asp-for="Password" class="form-control" />
+                <label asp-for="Password" for="floatingpassword" class="form-control">Password</label>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group row justify-content-center" style="padding-top:20px">
+                <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="text-center" style="padding-top: 20px">
+    Don't have an account? <a class="row justify-content-center" 
+        asp-controller="Register" asp-action="Register" style="text-decoration: none;">
+        Click here to register</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

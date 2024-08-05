@@ -21,22 +21,28 @@ namespace blogsite.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = await _service.AutenticateUserAsync(login.UsernameOrPassword, login.Password);
+                var user = await _service.AutenticateUserAsync(login.UsernameOrEmail, login.Password);
                 if (user == null)
                 {
                     ModelState.AddModelError("", "Username/Email or password is incorrect");
+                    return View();
                 }
-
-                // Success, create cookie
-                var claims = new List<Claim> {
+                else
+                {
+                    // Success, create cookie
+                    var claims = new List<Claim> {
                     new(ClaimTypes.Name, user.Username),
-                    new(ClaimTypes.Role, "User"),
-                    new(ClaimTypes.PrimarySid, user.Id.ToString()),
+                    new(ClaimTypes.Email, user.Email),
+                    new(ClaimTypes.Sid, user.Id.ToString()),
+                    new(ClaimTypes.Role, "User")
                     };
 
-                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
-                return RedirectToAction("UserAccount");
+                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
+                    return RedirectToAction("UserAccount");
+                }
+                
+                
             }
             return View();
         }
@@ -44,16 +50,12 @@ namespace blogsite.Controllers
         public IActionResult LogOut()
         {
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Index");
-        }
-
-        public IActionResult Index()
-        {
-            return View();
+            
+            return RedirectToAction("Login");
         }
 
         [Authorize]
-        public IActionResult UserAccount()
+        public async Task<IActionResult> UserAccount()
         {
             ViewBag.Name = HttpContext.User.Identity.Name;
             return View();

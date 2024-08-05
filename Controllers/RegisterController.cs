@@ -26,18 +26,21 @@ public class RegisterController(BlogService service) : Controller
 
             if (checkemail)
             {
-                return BadRequest("username already taken");
+                ModelState.AddModelError("", "Email already used");
+                return View();
+
             }
             if (checkuser)
             {
-                return BadRequest("Email already used");
+                ModelState.AddModelError("", "username already taken");
+                return View();
             }
 
             try
             {
                 await _service.CreateUserAsync(user.FirstName, user.LastName, user.UserName, user.Password, user.Email);
                 ModelState.Clear();
-                ViewBag.Message = $" {user.FirstName} {user.LastName} registered successfully. Please Login.";
+                ViewBag.Message = "You have been registered successffuly go to the login page and sign in";
             }
             catch (DbUpdateException ex)
             {
