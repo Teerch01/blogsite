@@ -1,0 +1,17 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h4 class="text-center"b style="margin-right:50px"> Hello @ViewBag.Name</h4>
+
+<div class="form-group text-center justify-content-center align-items-center">
+    <a class="btn btn-primary" style="margin-right:10px" type="button" asp-controller="Post" asp-action="CreatePost">
+        Create Blog
+    </a>
+
+    <a class="btn btn-primary" type="button" asp-controller="Post" asp-action="ViewPost">
+        View Blogs
+    </a>
+</div>

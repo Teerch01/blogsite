@@ -40,15 +40,13 @@ public class RegisterController(BlogService service) : Controller
             {
                 await _service.CreateUserAsync(user.FirstName, user.LastName, user.UserName, user.Password, user.Email);
                 ModelState.Clear();
-                ViewBag.Message = "You have been registered successffuly go to the login page and sign in";
+                return RedirectToAction("Login", "Login");
             }
-            catch (DbUpdateException ex)
+            catch (DbUpdateException)
             {
                 ModelState.AddModelError("", "Please enter a unique Email or Passowrd");
                 return View(user);
             }
-            return View();
-
         }
         return View(user);
     }

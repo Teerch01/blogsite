@@ -1,4 +1,6 @@
-﻿using blogsite.Models.DTO.RequestDTO;
+﻿using AutoMapper;
+using blogsite.Models.DTO.RequestDTO;
+using blogsite.Models.DTO.ResponseDTO;
 using blogsite.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -8,9 +10,10 @@ using System.Security.Claims;
 
 namespace blogsite.Controllers
 {
-    public class LoginController(BlogService service) : Controller
+    public class LoginController(BlogService service, IMapper mapper) : Controller
     {
         private readonly BlogService _service = service;
+        private readonly IMapper _mapper = mapper;
         public IActionResult Login()
         {
             return View();
@@ -57,7 +60,31 @@ namespace blogsite.Controllers
         [Authorize]
         public async Task<IActionResult> UserAccount()
         {
-            ViewBag.Name = HttpContext.User.Identity.Name;
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    var username = HttpContext.User.Identity.Name;
+                    ViewBag.Name = username;
+                    var user = await _service.GetUserByUserNameAsync(username);
+
+                    var posts = await _service.GetPostsAsync();
+                    if (posts != null)
+                    {
+                        foreach (var post in posts)
+                        {
+                            post.LikedByCurrentUser = await _service.HasUserLikedPost(post.Id, user.Id);
+                        }
+                        return View(posts.Select(_mapper.Map<PostResponseDTO>));
+                    }
+                }
+                catch (Exception)
+                {
+                    ModelState.AddModelError("", "unable to get posts");
+                    return View();
+                }
+            }
+
             return View();
         }
     }

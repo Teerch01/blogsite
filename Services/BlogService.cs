@@ -1,9 +1,6 @@
 using blogsite.Data;
 using blogsite.Models;
-using blogsite.Models.DTO.ResponseDTO;
 using blogsite.Repository;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Hosting;
 
 namespace blogsite.Services;
 
@@ -105,12 +102,12 @@ public class BlogService(BlogContext context) : IBlogService
     public async Task<IEnumerable<Posts>> GetPostsOfUserById(Guid id)
     {
         var posts = await _context.Posts.AsNoTracking().Where(u => u.UserId == id).ToListAsync();
-        if (posts.Count != 0)
+        if (posts.Count == 0)
         {
-            return posts;
+            return null;
         }
 
-        return null;
+        return posts;
     }
 
     public async Task<User> GetUserByUserNameAsync(string username)

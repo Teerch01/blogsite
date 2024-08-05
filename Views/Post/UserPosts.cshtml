@@ -1,9 +1,8 @@
 ﻿@model IEnumerable<blogsite.Models.DTO.ResponseDTO.PostResponseDTO>
 
 @{
-    ViewData["Title"] = "ViewPost";
+    ViewData["Title"] = "UserPosts";
 }
-
 <div class="container justify-content-center align-items-center">
     <h1 class="text-center">Blogs</h1>
     @if (Model != null)
@@ -34,7 +33,7 @@
             </div>
         }
     }
-    
+
     <div class="d-flex justify-content-center align-items-center" style="margin-top: 10px;">
         <a class="btn btn-primary m-2" type="button" asp-action="CreatePost">
             Create New

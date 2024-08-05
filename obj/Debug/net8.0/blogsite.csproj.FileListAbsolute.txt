@@ -465,3 +465,4 @@ D:\Desktop\fast-endpoints\blogsite\obj\Debug\net8.0\refint\blogsite.dll
 D:\Desktop\fast-endpoints\blogsite\obj\Debug\net8.0\blogsite.pdb
 D:\Desktop\fast-endpoints\blogsite\obj\Debug\net8.0\blogsite.genruntimeconfig.cache
 D:\Desktop\fast-endpoints\blogsite\obj\Debug\net8.0\ref\blogsite.dll
+C:\Users\DELL\Desktop\file\blogsite\obj\Debug\net8.0\blogsite.sourcelink.json
