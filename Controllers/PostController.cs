@@ -45,27 +45,17 @@ namespace blogsite.Controllers
             return View(newPost);
         }
 
-        [HttpGet]
-        public async Task<IActionResult> ViewPost()
+        [HttpPost]
+        public async Task<IActionResult> ViewPost(int id)
         {
             if (ModelState.IsValid)
             {
                 try
                 {
-                    var username = HttpContext.User.Identity.Name;
-                    var user = await _service.GetUserByUserNameAsync(username);
-
-                    var posts = await _service.GetPostsAsync();
+                    var posts = await _service.GetPostByIdAsync(id);
                     if (posts != null)
                     {
-                        foreach (var post in posts)
-                        {
-                            post.LikedByCurrentUser = await _service.HasUserLikedPost(
-                                post.Id,
-                                user.Id
-                            );
-                        }
-                        return View(posts.Select(_mapper.Map<PostResponseDTO>));
+                        return View(_mapper.Map<PostResponseDTO>(posts));
                     }
                 }
                 catch (Exception)
@@ -119,9 +109,10 @@ namespace blogsite.Controllers
             if (ModelState.IsValid)
             {
                 await _service.LikePost(id, user.Id);
+                return Json(new { success = true });
             }
 
-            return RedirectToAction("UserAccount", "Login");
+            return Json(new { success = false });
         }
     }
 }

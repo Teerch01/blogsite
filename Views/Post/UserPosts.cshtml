@@ -4,27 +4,24 @@
     ViewData["Title"] = "UserPosts";
 }
 <div class="container justify-content-center align-items-center">
-    <h1 class="text-center">Blogs</h1>
+
     @if (Model != null)
     {
         @foreach (var item in Model)
         {
-            <div class="card" style="flex: 0 0 30%; margin: 10px;">
-                <div class="card-body" style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+            <div class="card" style="flex: 0 0 30%; margin: 10px; border:0px;">
+                <div class="card-body" style="padding: 10px;">
                     <img style="width: 100%; height: 100%" src="" alt="Card image cap">
-                    <div style="padding: 10px;">
-                        <h5 class="card-title" style="margin: 0;">@Html.DisplayFor(modelItem => item.Title)</h5>
-                        <p style="margin: 0;">@Html.DisplayFor(modelItem => item.Content)</p>
+                    <div style="padding: 10px; border: 0px">
+                        <h5 class="card-title text-center" style="margin: 0;">@Html.DisplayFor(modelItem => item.Title)</h5>
+                        <p style="margin: 0; display: -webkit-box;overflow: hidden; -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 2;">@Html.DisplayFor(modelItem => item.Content)</p>
                         <div style="display: flex; justify-content: space-between; align-items: center;">
-                            <form asp-action="likepost" asp-controller="post" asp-route-itemid="@item.Id">
+                            <form asp-action="ViewPost" asp-controller="Post" asp-route-itemid="@item.Id">
                                 <input type="hidden" name="id" value="@item.Id" />
-                                <button type="submit" class="like-btn" style="background: none; border: none; padding: 0;">
-                                    <i class="bi bi-heart-fill "
-                                       style="color: red;display: @(item.LikedByCurrentUser ? "inline-block" : "none")"></i>
-                                    <i class="bi bi-heart"
-                                       style="display: @(item.LikedByCurrentUser ? "none": "inline-block")"></i>
+                                <button type="submit" style="background: none; border: none; padding: 0;">
+                                    Read more
                                 </button>
-                                <span>@Html.DisplayFor(modelItem => item.LikeCount)</span>
                             </form>
                             <small style="margin: 0;padding-left:100px">Posted on @item.CreatedOn.ToString("MMMM dd, yyyy")</small>
                         </div>
