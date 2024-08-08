@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\views\\post\\viewpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:views\\post\\viewpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\views\\post\\editpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:views\\post\\editpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ViewPost.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Post\\ViewPost.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\ViewPost.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Post\\ViewPost.cshtml",
+              "RelativeToolTip": "Views\\Post\\ViewPost.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:53:06.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EditPost.cshtml",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Post\\EditPost.cshtml",
               "RelativeDocumentMoniker": "Views\\Post\\EditPost.cshtml",
@@ -67,19 +80,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ViewPost.cshtml",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Post\\ViewPost.cshtml",
-              "RelativeDocumentMoniker": "Views\\Post\\ViewPost.cshtml",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Post\\ViewPost.cshtml",
-              "RelativeToolTip": "Views\\Post\\ViewPost.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T08:39:38.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CreatePost.cshtml",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Post\\CreatePost.cshtml",
@@ -88,8 +88,7 @@
               "RelativeToolTip": "Views\\Post\\CreatePost.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T08:40:46.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T08:40:46.155Z"
             },
             {
               "$type": "Document",
@@ -101,8 +100,7 @@
               "RelativeToolTip": "Views\\Post\\DeletePost.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T10:47:55.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T10:47:55.014Z"
             },
             {
               "$type": "Document",
@@ -114,8 +112,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T09:57:50.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T09:57:50.58Z"
             },
             {
               "$type": "Document",
@@ -127,8 +124,7 @@
               "RelativeToolTip": "Models\\DTO\\RequestDTO\\PostRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T09:48:29.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T09:48:29.811Z"
             }
           ]
         },
@@ -146,8 +142,7 @@
               "RelativeToolTip": "wwwroot\\js\\site.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-08T08:51:22.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T08:51:22.922Z"
             },
             {
               "$type": "Document",
@@ -159,8 +154,7 @@
               "RelativeToolTip": "Controllers\\LoginController.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAswEkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:33:08.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T15:33:08.418Z"
             },
             {
               "$type": "Document",
@@ -176,13 +170,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PostController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Controllers\\PostController.cs",
               "RelativeDocumentMoniker": "Controllers\\PostController.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Controllers\\PostController.cs",
               "RelativeToolTip": "Controllers\\PostController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAYwDIAAAAjAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T16:35:39.433Z",
               "EditorCaption": ""

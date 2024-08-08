@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using blogsite.Models;
 using blogsite.Models.DTO.RequestDTO;
 using blogsite.Models.DTO.ResponseDTO;
 using blogsite.Services;

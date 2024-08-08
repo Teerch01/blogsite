@@ -15,7 +15,16 @@
         
         @if (User.Identity.IsAuthenticated)
         {
-            
+            <form id="likeForm" data-itemid="@Model.Id">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <button type="button" id="likeButton" style="background: none; border: none; padding: 0;">
+                    <i class="bi bi-heart-fill "
+                       style="color: red;display: @(Model.LikedByCurrentUser ? "inline-block" : "none")"></i>
+                    <i class="bi bi-heart"
+                       style="display: @(Model.LikedByCurrentUser ? "none": "inline-block")"></i>
+                </button>
+                <span id="likeCount">@Html.DisplayFor(modelItem => Model.LikeCount)</span>
+            </form>
         }
         else
         {
