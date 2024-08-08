@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using blogsite.Models;
 using blogsite.Models.DTO.RequestDTO;
 using blogsite.Models.DTO.ResponseDTO;
 using blogsite.Services;
@@ -45,6 +46,56 @@ namespace blogsite.Controllers
             return View(newPost);
         }
 
+        public async Task<IActionResult> EditPost(int id)
+        {
+            if (ModelState.IsValid)
+            {
+                var post = await _service.GetPostByIdAsync(id);
+                return View(_mapper.Map<PostResponseDTO>(post));
+            }
+            return View();
+        }
+
+        public async Task<IActionResult> EditPostConfirmed(PostRequestDTO post)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    var initialpost = await _service.GetPostByIdAsync(post.Id);
+                    var updatedpost = await _service.EditPostAsync(post.Id, post.Title, post.Content);
+                    
+                }
+                catch (DbUpdateException)
+                {
+                    ModelState.AddModelError("", "Edit error");
+                    return RedirectToAction("UserAccount", "Login");
+                }
+            }
+
+            return RedirectToAction("UserAccount", "Login");
+        }
+
+        public async Task<IActionResult> DeletePost(int id) 
+        {
+            if (ModelState.IsValid)
+            {
+                var post = await _service.GetPostByIdAsync(id);
+                return View(_mapper.Map<PostResponseDTO>(post));
+            }
+            return View();
+        }
+
+        
+        public async Task<IActionResult> DeletePostConfirmed(int id)
+        {
+            if (ModelState.IsValid)
+            {
+                await _service.DeletePostAsync(id);
+            }
+            return RedirectToAction("UserAccount", "Login");
+        }
+
         [HttpPost]
         public async Task<IActionResult> ViewPost(int id)
         {
@@ -52,10 +103,10 @@ namespace blogsite.Controllers
             {
                 try
                 {
-                    var posts = await _service.GetPostByIdAsync(id);
-                    if (posts != null)
+                    var post = await _service.GetPostByIdAsync(id);
+                    if (post != null)
                     {
-                        return View(_mapper.Map<PostResponseDTO>(posts));
+                        return View(_mapper.Map<PostResponseDTO>(post));
                     }
                 }
                 catch (Exception)
