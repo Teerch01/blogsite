@@ -13,10 +13,10 @@ public interface IBlogService
     Task<bool> EmailAlreadyExists(string email);
     Task<User> AutenticateUserAsync(string usernameoremail, string password);
     Task DeleteUserAsync(Guid id);
-    Task CreatePostAsync([FromBody] string title, string content, Guid userid, string username);
+    Task CreatePostAsync([FromBody] string title, string content, Guid userid, string username, string imageurl);
     Task<Posts> GetPostByIdAsync(int postId);
     Task<IEnumerable<Posts>> GetPostsAsync();
-    Task<Posts> EditPostAsync(int postId, string title, string content);
+    Task<Posts> EditPostAsync(int postId, string title, string content, string imageurl);
     Task DeletePostAsync(int postid);
     Task LikePost(int postid, Guid userid);
     Task<bool> HasUserLikedPost(int postid, Guid userid);

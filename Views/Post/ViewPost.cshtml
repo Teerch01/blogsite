@@ -33,13 +33,13 @@
             </button>
             <span>@Html.DisplayFor(modelItem => Model.LikeCount)</span>
         }
-        <div class="text-center">
+        <div class="text-center d-flex container flex-row justify-content-center align-items-center">
             @if (User.Identity.IsAuthenticated && Model.Username == Context.User.Identity.Name)
             {
-                <a class="btn btn-primary" type="button" asp-controller="Login" asp-action="UserAccount">
+                <a class="btn btn-primary" style="margin-right: 10px" type="button" asp-controller="Login" asp-action="UserAccount">
                     Back
                 </a>
-                <form asp-action="EditPost">
+                <form asp-action="EditPost" style="margin-right: 10px">
                     <input type="hidden" name="id" value="@Model.Id" />
                     <button type="submit" class="btn btn-primary">
                         Edit Post

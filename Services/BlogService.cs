@@ -22,14 +22,15 @@ public class BlogService(BlogContext context) : IBlogService
         return user;
     }
 
-    public async Task CreatePostAsync(string title, string content, Guid userid, string username)
+    public async Task CreatePostAsync(string title, string content, Guid userid, string username, string imageurl)
     {
         Posts post = new()
         {
             Title = title,
             Content = content,
             UserId = userid,
-            Username = username
+            Username = username,
+            ImageUrl = imageurl
         };
         await _context.Posts.AddAsync(post);
         await _context.SaveChangesAsync();
@@ -75,11 +76,12 @@ public class BlogService(BlogContext context) : IBlogService
         await _context.SaveChangesAsync();
     }
 
-    public async Task<Posts> EditPostAsync(int postid, string title, string content)
+    public async Task<Posts> EditPostAsync(int postid, string title, string content, string imageurl)
     {
         var updatedpost = await _context.Posts.FindAsync(postid);
         updatedpost.Title = title;
         updatedpost.Content = content;
+        updatedpost.ImageUrl = imageurl;
         await _context.SaveChangesAsync();
         return updatedpost;
     }

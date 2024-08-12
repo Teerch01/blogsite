@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\images\\e54764bb-d6d4-4075-980c-85e998894042_tropical-leaves-background-zoom_23-2148580778.avif",
+      "PackagePath": "staticwebassets\\images\\e54764bb-d6d4-4075-980c-85e998894042_tropical-leaves-background-zoom_23-2148580778.avif"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\images\\efb380e3-b97c-4a68-923e-0fdc8bd41340_tropical-leaves-background-zoom_23-2148580778.avif",
+      "PackagePath": "staticwebassets\\images\\efb380e3-b97c-4a68-923e-0fdc8bd41340_tropical-leaves-background-zoom_23-2148580778.avif"
+    },
+    {
       "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

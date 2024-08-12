@@ -8,7 +8,7 @@
 <div class="card" style="width:400px">
     <h2 class="text-center card-title">Edit Blog</h2>
     <div class="card-body text-center justify-content-center align-items-center">
-        <form asp-action="EditPost">
+        <form asp-action="EditPost" enctype="multipart/form-data">
             @if (ViewBag.Message != null)
             {
                 <div class="form-group" style="color: green;">@ViewBag.Message</div>
@@ -24,6 +24,11 @@
                 <label asp-for="Content" class="control-label"></label>
                 <textarea asp-for="Content" class="form-control">@Model.Content</textarea>
                 <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group p-sm-1">
+                <label asp-for="ImageUrl" class="control-label"></label>
+                <input type="file" asp-for="ImageUrl" class="form-control" />
+                <span asp-validation-for="ImageUrl" class="text-danger"></span>
             </div>
             <div class="form-group p-sm-2">
                 <input type="submit" value="Confirm" class="btn btn-primary btn-sm" />

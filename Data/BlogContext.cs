@@ -32,7 +32,7 @@ public class BlogContext(DbContextOptions<BlogContext> options) : DbContext(opti
 
 
 		modelBuilder.Entity<Likes>().HasKey(x => x.Id);
-		modelBuilder.Entity<Posts>().Property(x => x.Id).ValueGeneratedOnAdd();
+		modelBuilder.Entity<Likes>().Property(x => x.Id).ValueGeneratedOnAdd();
 
 
 		// RELATIONSHIP

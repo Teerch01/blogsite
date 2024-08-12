@@ -38,16 +38,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/Desktop/file/blogsite/Views/Login/Loginnnn.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5ubm4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/DELL/Desktop/file/blogsite/Views/Login/UserAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVXNlckFjY291bnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/DELL/Desktop/file/blogsite/Views/Login/UserAccountt.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVXNlckFjY291bnR0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL/Desktop/file/blogsite/Views/Post/CreatePost.cshtml]
@@ -60,10 +52,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/DELL/Desktop/file/blogsite/Views/Post/EditPost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxFZGl0UG9zdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/DELL/Desktop/file/blogsite/Views/Post/EditPostttt.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxFZGl0UG9zdHR0dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL/Desktop/file/blogsite/Views/Post/UserPosts.cshtml]

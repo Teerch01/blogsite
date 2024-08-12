@@ -11,7 +11,7 @@
         {
             <div class="card" style="flex: 0 0 30%; margin: 10px;">
                 <div class="card-body" style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-                    <img style="width: 100%; height: 100%" src="" alt="Card image cap">
+                    <img style="width: 100%; height: 100%" src="~/@item.ImageUrl" alt="Card image cap">
                     <div style="padding: 10px;">
                         <h5 class="card-title text-center" style="margin: 0;">@Html.DisplayFor(modelItem => item.Title)</h5>
                         <p style="margin: 0; display: -webkit-box;overflow: hidden; -webkit-box-orient: vertical; 
@@ -32,8 +32,8 @@
     }
 </div>
 
-<div class="container position-static justify-content-center align-content-center">
-    <h4 class="text-center"> Hello @ViewBag.Name</h4>
+<div class="container flex-column d-flex justify-content-center align-content-center">
+    <h6 class="text-center"> Hello @ViewBag.Name</h6>
 
     <div class="form-group text-center justify-content-center align-items-center">
         <a class="btn btn-primary" style="margin-right:10px" type="button" asp-controller="Post" asp-action="CreatePost">

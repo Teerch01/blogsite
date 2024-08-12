@@ -3,13 +3,16 @@ using blogsite.Models.DTO.RequestDTO;
 using blogsite.Models.DTO.ResponseDTO;
 using blogsite.Services;
 using Microsoft.AspNetCore.Mvc;
+using blogsite.Models;
+using Microsoft.AspNetCore.Hosting;
 
 namespace blogsite.Controllers
 {
-    public class PostController(BlogService service, IMapper mapper) : Controller
+    public class PostController(BlogService service, IMapper mapper, IWebHostEnvironment webHost) : Controller
     {
         private readonly BlogService _service = service;
         private readonly IMapper _mapper = mapper;
+        private readonly IWebHostEnvironment _host = webHost;
 
         public IActionResult CreatePost()
         {
@@ -23,6 +26,8 @@ namespace blogsite.Controllers
             {
                 try
                 {
+                    string imageUrl = await SaveImageAsync(newPost.ImageFile);
+
                     var username = HttpContext.User.Identity.Name;
                     var user = await _service.GetUserByUserNameAsync(username);
 
@@ -30,19 +35,34 @@ namespace blogsite.Controllers
                         newPost.Title,
                         newPost.Content,
                         user.Id,
-                        user.Username
+                        user.Username,
+                        imageUrl
                     );
                     ModelState.Clear();
                     ViewBag.Message = "Post created successfully";
                 }
                 catch (DbUpdateException e)
                 {
-                    ModelState.AddModelError("", $"{e}error");
+                    ModelState.AddModelError("", $"error");
                 }
                 return View();
             }
 
             return View(newPost);
+        }
+
+        private async Task<string> SaveImageAsync(IFormFile imageFile)
+        {
+            string webRootPath = _host.WebRootPath;
+            string fileName = Guid.NewGuid().ToString() + "_" + imageFile.FileName;
+            string path = Path.Combine(webRootPath, "images", fileName);
+
+            using (var fileStream = new FileStream(path, FileMode.Create))
+            {
+                await imageFile.CopyToAsync(fileStream);
+            }
+
+            return "/images/" + fileName;
         }
 
         public async Task<IActionResult> EditPost(int id)
@@ -61,8 +81,10 @@ namespace blogsite.Controllers
             {
                 try
                 {
+                    string imageUrl = await SaveImageAsync(post.ImageFile);
+
                     var initialpost = await _service.GetPostByIdAsync(post.Id);
-                    var updatedpost = await _service.EditPostAsync(post.Id, post.Title, post.Content);
+                    var updatedpost = await _service.EditPostAsync(post.Id, post.Title, post.Content, imageUrl);
                     
                 }
                 catch (DbUpdateException)
