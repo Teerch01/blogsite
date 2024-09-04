@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\views\\login\\useraccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:views\\login\\useraccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\views\\post\\editpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:views\\post\\editpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\views\\post\\viewpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:views\\post\\viewpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\repository\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:repository\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\views\\post\\editpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|solutionrelative:views\\post\\editpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{522651B8-E158-48C3-A297-7D277AD1AB73}|blogsite.csproj|c:\\users\\dell\\desktop\\file\\blogsite\\views\\post\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -43,69 +43,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACkAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-12T13:39:57.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PostController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Controllers\\PostController.cs",
-              "RelativeToolTip": "Controllers\\PostController.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAowH0AAAAQAAAA",
+              "Title": "BlogService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Services\\BlogService.cs",
+              "RelativeDocumentMoniker": "Services\\BlogService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Services\\BlogService.cs",
+              "RelativeToolTip": "Services\\BlogService.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAqwKUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T15:44:40.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ViewPost.cshtml",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Post\\ViewPost.cshtml",
-              "RelativeDocumentMoniker": "Views\\Post\\ViewPost.cshtml",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Post\\ViewPost.cshtml",
-              "RelativeToolTip": "Views\\Post\\ViewPost.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-09T15:38:30.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-09T15:34:18.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserAccount.cshtml",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Login\\UserAccount.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\UserAccount.cshtml",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Login\\UserAccount.cshtml",
-              "RelativeToolTip": "Views\\Login\\UserAccount.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-09T15:33:16.464Z",
+              "WhenOpened": "2024-09-03T10:26:16.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Controllers\\PostController.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAMwJUAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T10:25:29.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAIAywEcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T10:05:43.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBlogService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Repository\\IBlogService.cs",
+              "RelativeDocumentMoniker": "Repository\\IBlogService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Repository\\IBlogService.cs",
+              "RelativeToolTip": "Repository\\IBlogService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T10:05:13.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-19T09:22:02.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "EditPost.cshtml",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\Views\\Post\\EditPost.cshtml",
               "RelativeDocumentMoniker": "Views\\Post\\EditPost.cshtml",
@@ -113,8 +114,7 @@
               "RelativeToolTip": "Views\\Post\\EditPost.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-09T14:56:01.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T14:56:01.336Z"
             },
             {
               "$type": "Document",

@@ -41,7 +41,7 @@ namespace blogsite.Controllers
                     ModelState.Clear();
                     ViewBag.Message = "Post created successfully";
                 }
-                catch (DbUpdateException e)
+                catch (DbUpdateException)
                 {
                     ModelState.AddModelError("", $"error");
                 }

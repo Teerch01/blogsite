@@ -1,10 +1,11 @@
-﻿using blogsite.Models.DTO.RequestDTO;
+﻿using blogsite.Data;
+using blogsite.Models.DTO.RequestDTO;
 using blogsite.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace blogsite.Controllers;
 
-public class RegisterController(BlogService service) : Controller
+public class RegisterController(BlogService service, BlogContext context) : Controller
 {
 
     private readonly BlogService _service = service;
@@ -12,6 +13,7 @@ public class RegisterController(BlogService service) : Controller
     [HttpGet]
     public IActionResult Register()
     {
+        context.ChangeTracker.   
         return View();
     }
 
