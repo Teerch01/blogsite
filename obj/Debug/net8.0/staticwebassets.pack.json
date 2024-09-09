@@ -1,271 +1,751 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blogsite.bundle.scp.css",
-      "PackagePath": "staticwebassets\\blogsite.bundle.scp.css"
+      "Id": "/Users/habib/Desktop/blogsite/obj/Debug/net8.0/scopedcss/projectbundle/blogsite.bundle.scp.css",
+      "PackagePath": "staticwebassets/blogsite.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\images\\e54764bb-d6d4-4075-980c-85e998894042_tropical-leaves-background-zoom_23-2148580778.avif",
-      "PackagePath": "staticwebassets\\images\\e54764bb-d6d4-4075-980c-85e998894042_tropical-leaves-background-zoom_23-2148580778.avif"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/images/e54764bb-d6d4-4075-980c-85e998894042_tropical-leaves-background-zoom_23-2148580778.avif",
+      "PackagePath": "staticwebassets/images/e54764bb-d6d4-4075-980c-85e998894042_tropical-leaves-background-zoom_23-2148580778.avif"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\images\\efb380e3-b97c-4a68-923e-0fdc8bd41340_tropical-leaves-background-zoom_23-2148580778.avif",
-      "PackagePath": "staticwebassets\\images\\efb380e3-b97c-4a68-923e-0fdc8bd41340_tropical-leaves-background-zoom_23-2148580778.avif"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/images/efb380e3-b97c-4a68-923e-0fdc8bd41340_tropical-leaves-background-zoom_23-2148580778.avif",
+      "PackagePath": "staticwebassets/images/efb380e3-b97c-4a68-923e-0fdc8bd41340_tropical-leaves-background-zoom_23-2148580778.avif"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/images/pexels-thisisengineering-3913025.jpg",
+      "PackagePath": "staticwebassets/images/pexels-thisisengineering-3913025.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\file\\blogsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.blogsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-af.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-af.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ar.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-ar.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-bg.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-bg.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-bn.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-bn.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-bs.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-bs.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ca.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-ca.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-cs.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-cs.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-cy.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-cy.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-da.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-da.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-de.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-de.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-el.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-el.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-en.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-en.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-es.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-es.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-et.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-et.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-fa.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-fa.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-fi.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-fi.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-fil.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-fil.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-fj.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-fj.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-fr.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-fr.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ga.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-ga.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-gu.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-gu.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-he.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-he.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-hi.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-hi.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-hr.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-hr.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ht.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-ht.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-hu.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-hu.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-id.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-id.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-is.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-is.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-it.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-it.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ja.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-ja.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-kn.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-kn.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ko.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-ko.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-lt.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-lt.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-lv.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-lv.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-mg.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-mg.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-mi.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-mi.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ml.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-ml.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-mr.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-mr.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ms.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-ms.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-mt.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-mt.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-mww.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-mww.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-nb.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-nb.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-nl.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-nl.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-otq.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-otq.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-pa.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-pa.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-pl.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-pl.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-pt-pt.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-pt-pt.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-pt.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-pt.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ro.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-ro.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ru.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-ru.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-sk.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-sk.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-sl.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-sl.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-sm.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-sm.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-sr-Cyrl.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-sr-Cyrl.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-sr-Latn.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-sr-Latn.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-sv.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-sv.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-sw.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-sw.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ta.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-ta.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-te.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-te.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-th.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-th.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-tlh-Latn.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-tlh-Latn.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-tlh-Piqd.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-tlh-Piqd.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-to.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-to.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-tr.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-tr.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ty.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-ty.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-uk.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-uk.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ur.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-ur.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-vi.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-vi.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-yua.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-yua.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-zh-Hans.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-zh-Hans.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-zh-Hant.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang-zh-Hant.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang.js",
+      "PackagePath": "staticwebassets/richtexteditor/lang/rte-lang.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/-combine-plugin.txt",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/-combine-plugin.txt"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/all_plugins.js",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/all_plugins.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/html2pdf.js",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/html2pdf.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/imageeditor.js",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/imageeditor.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/insertcode.js",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/insertcode.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/insertemoji.js",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/insertemoji.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/insertgallery.js",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/insertgallery.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/inserttemplate.js",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/inserttemplate.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/samples/insertcode_v1.js",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/samples/insertcode_v1.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/fabric.min.js",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/tui.image-editor/fabric.min.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/note.txt",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/tui.image-editor/note.txt"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/svg/icon-a.svg",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/tui.image-editor/svg/icon-a.svg"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/svg/icon-b.svg",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/tui.image-editor/svg/icon-b.svg"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/svg/icon-c.svg",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/tui.image-editor/svg/icon-c.svg"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/svg/icon-d.svg",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/tui.image-editor/svg/icon-d.svg"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/tui-code-snippet.min.js",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/tui.image-editor/tui-code-snippet.min.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/tui-color-picker.min.css",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/tui.image-editor/tui-color-picker.min.css"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/tui-color-picker.min.js",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/tui.image-editor/tui-color-picker.min.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/tui-image-editor.min.css",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/tui.image-editor/tui-image-editor.min.css"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/tui-image-editor.min.js",
+      "PackagePath": "staticwebassets/richtexteditor/plugins/tui.image-editor/tui-image-editor.min.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/rte.js",
+      "PackagePath": "staticwebassets/richtexteditor/rte.js"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/rte_theme_default.css",
+      "PackagePath": "staticwebassets/richtexteditor/rte_theme_default.css"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/colorpicker_more_ns.htm",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/colorpicker_more_ns.htm"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/help.htm",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/help.htm"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/1x1.gif",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/1x1.gif"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpie_Color.cur",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpie_Color.cur"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpie_GradientPositionDark.gif",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpie_GradientPositionDark.gif"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpie_GradientPositionLight.gif",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpie_GradientPositionLight.gif"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpie_VerticalPosition.gif",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpie_VerticalPosition.gif"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpie_WebSafe.gif",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpie_WebSafe.gif"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpie_gradients.png",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpie_gradients.png"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_Color.cur",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpns_Color.cur"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_ColorSpace1.png",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpns_ColorSpace1.png"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_ColorSpace2.png",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpns_ColorSpace2.png"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_GradientPositionDark.gif",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpns_GradientPositionDark.gif"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_GradientPositionLight.gif",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpns_GradientPositionLight.gif"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_Vertical1.png",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpns_Vertical1.png"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_Vertical2.png",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpns_Vertical2.png"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_VerticalPosition.gif",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpns_VerticalPosition.gif"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_WebSafe.gif",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpns_WebSafe.gif"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_gradients.png",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpns_gradients.png"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_hue2.png",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/cpns_hue2.png"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/formbn.gif",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/formbn.gif"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/multiclavier.gif",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/images/multiclavier.gif"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/richtexteditor_content.css",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/richtexteditor_content.css"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/richtexteditor_preview.css",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/richtexteditor_preview.css"
+    },
+    {
+      "Id": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/richtexteditor_preview.js",
+      "PackagePath": "staticwebassets/richtexteditor/runtime/richtexteditor_preview.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.blogsite.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.blogsite.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.blogsite.props",
       "PackagePath": "build\\blogsite.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.blogsite.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.blogsite.props",
       "PackagePath": "buildMultiTargeting\\blogsite.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.blogsite.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.blogsite.props",
       "PackagePath": "buildTransitive\\blogsite.props"
     }
   ],

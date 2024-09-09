@@ -4,46 +4,49 @@
     ViewData["Title"] = "CreatePost";
 }
 
+<link rel="stylesheet" href="/richtexteditor/rte_theme_default.css" />
+<script type="text/javascript" src="/richtexteditor/rte.js"></script>
+<script type="text/javascript" src='/richtexteditor/plugins/all_plugins.js'></script>
 
-<div class="card" style="width:400px">
+<div class="card" style="width:859px">
     <h2 class="text-center card-title">Create Blog</h2>
-        <div class="card-body text-center justify-content-center align-items-center">
+    <div class="card-body justify-content-center align-items-center">
         <form asp-action="CreatePost" enctype="multipart/form-data">
             @if (ViewBag.Message != null)
             {
                 <div class="form-group" style="color: green;">@ViewBag.Message</div>
             }
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group">
-                    <label asp-for="Title" class="control-label"></label>
-                    <input asp-for="Title" class="form-control" />
-                    <span asp-validation-for="Title" class="text-danger"></span>
-                </div>
-                <div class="form-group p-sm-1">
-                    <label asp-for="Content" class="control-label"></label>
-                    <textarea asp-for="Content" class="form-control"></textarea>
-                    <span asp-validation-for="Content" class="text-danger"></span>
-                </div>
-                <div class="form-group p-sm-1">
-                    <label asp-for="ImageFile" class="control-label"></label>
-                    <input type="file" asp-for="ImageFile" class="form-control"/>
-                    <span asp-validation-for="ImageFile" class="text-danger"></span>
-                </div>
-                <div class="form-group p-sm-2">
-                    <input type="submit" value="Create" class="btn btn-primary btn-sm" />
-                </div>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
             <div>
+                <input name="Content" id="input" asp-for="Content" type="hidden"/>
+                <textarea asp-for="Content" id="div_editor1" style="width: 300px;"></textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group p-sm-1">
+                <label asp-for="ImageFile" class="control-label"></label>
+                <input type="file" asp-for="ImageFile" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <div class="form-group p-sm-2 text-center">
+                <input type="submit" value="Create" class="btn btn-primary btn-sm" />
+            </div>
+            <div class="text-center">
                 <a class="btn btn-primary btn-sm" type="button" asp-controller="Login" asp-action="UserAccount">
                     Cancel
                 </a>
             </div>
-            </form>
-        
-        </div>
+        </form>
+
+    </div>
 </div>
 
-
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

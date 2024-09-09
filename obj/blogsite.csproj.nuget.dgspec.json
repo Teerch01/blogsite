@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\DELL\\Desktop\\file\\blogsite\\blogsite.csproj": {}
+    "/Users/habib/Desktop/blogsite/blogsite.csproj": {}
   },
   "projects": {
-    "c:\\Users\\DELL\\Desktop\\file\\blogsite\\blogsite.csproj": {
+    "/Users/habib/Desktop/blogsite/blogsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\DELL\\Desktop\\file\\blogsite\\blogsite.csproj",
+        "projectUniqueName": "/Users/habib/Desktop/blogsite/blogsite.csproj",
         "projectName": "blogsite",
-        "projectPath": "c:\\Users\\DELL\\Desktop\\file\\blogsite\\blogsite.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\DELL\\Desktop\\file\\blogsite\\obj\\",
+        "projectPath": "/Users/habib/Desktop/blogsite/blogsite.csproj",
+        "packagesPath": "/Users/habib/.nuget/packages/",
+        "outputPath": "/Users/habib/Desktop/blogsite/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/habib/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +46,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "HtmlSanitizer": {
+              "target": "Package",
+              "version": "[8.0.*, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -90,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

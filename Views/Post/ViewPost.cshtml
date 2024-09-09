@@ -9,21 +9,21 @@
          style="height:100%; overflow-wrap:break-word;">
         @if (Model != null)
         {
-            <h2 class="text-center">@Model.Title</h2>
-            <article style="text-align:justify">@Model.Content</article>
+            <h2 class="text-center" style="color: white;">@Model.Title</h2>
+            <article style="text-align:justify; color: white">@Html.Raw(Model.Content)</article>
         }
         
         @if (User.Identity.IsAuthenticated)
         {
             <form id="likeForm" data-itemid="@Model.Id">
                 <input type="hidden" name="id" value="@Model.Id" />
-                <button type="button" id="likeButton" style="background: none; border: none; padding: 0;">
+                <button type="button" id="likeButton" style="background: none; border: none; padding: 0; color: white;">
                     <i class="bi bi-heart-fill "
                        style="color: red;display: @(Model.LikedByCurrentUser ? "inline-block" : "none")"></i>
                     <i class="bi bi-heart"
                        style="display: @(Model.LikedByCurrentUser ? "none": "inline-block")"></i>
                 </button>
-                <span id="likeCount">@Html.DisplayFor(modelItem => Model.LikeCount)</span>
+                <span id="likeCount" style="color: white;">@Html.DisplayFor(modelItem => Model.LikeCount)</span>
             </form>
         }
         else

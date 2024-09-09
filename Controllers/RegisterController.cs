@@ -12,8 +12,7 @@ public class RegisterController(BlogService service, BlogContext context) : Cont
 
     [HttpGet]
     public IActionResult Register()
-    {
-        context.ChangeTracker.   
+    {   
         return View();
     }
 

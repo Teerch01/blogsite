@@ -3,8 +3,17 @@
 @{
     ViewData["Title"] = "UserAccount";
 }
+
+<style>
+    .card-body p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+</style>
 <div class="container justify-content-center align-items-center" style="max-width:750px;">
-    <h1 class="text-center">Blogs</h1>
+    <h1 class="text-center" style="color:azure">Blogs</h1>
     @if (Model != null)
     {
         @foreach (var item in Model)
@@ -14,9 +23,19 @@
                     <img style="width: 100%; height: 100%" src="~/@item.ImageUrl" alt="Card image cap">
                     <div style="padding: 10px;">
                         <h5 class="card-title text-center" style="margin: 0;">@Html.DisplayFor(modelItem => item.Title)</h5>
-                        <p style="margin: 0; display: -webkit-box;overflow: hidden; -webkit-box-orient: vertical; 
-                            -webkit-line-clamp: 2;">@Html.DisplayFor(modelItem => item.Content)</p>
-                        <div class="align-items-center d-flex justify-content-between">
+                        <p>
+                            @{
+                                if (item.Content.Length > 225)
+                                {
+                                    var trimmedContent = item.Content.Substring(0, 225) + "...";
+                                    @Html.Raw(trimmedContent);
+                                }
+                                else {
+                                    @Html.Raw(item.Content);
+                                }
+                            }
+                        </p>
+                        <div class="align-items-center d-flex flex-row justify-content-between">
                             <form asp-action="ViewPost" asp-controller="Post" asp-route-itemid="@item.Id">
                                 <input type="hidden" name="id" value="@item.Id" />
                                 <button type="submit" style="background: none; border: none; padding: 0;">
@@ -33,7 +52,7 @@
 </div>
 
 <div class="container flex-column d-flex justify-content-center align-content-center">
-    <h6 class="text-center"> Hello @ViewBag.Name</h6>
+    <h6 class="text-center" style="color: white;"> Hello @ViewBag.Name</h6>
 
     <div class="form-group text-center justify-content-center align-items-center">
         <a class="btn btn-primary" style="margin-right:10px" type="button" asp-controller="Post" asp-action="CreatePost">
