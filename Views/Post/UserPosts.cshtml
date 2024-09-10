@@ -5,57 +5,61 @@
 }
 
 <div class="container" style="display: flex; flex-direction: column; align-items: center;justify-content: center;">
-        <a class="btn btn-primary m-2" style="width: 100px; position: relative; right: -185px;" type="button" asp-action="CreatePost">
-            New Blog
-        </a>
-        <div class="d-flex justify-content-center align-items-center">
-            <div class="col-12 col-md-10 col-lg-8 w-auto">
-                <div class="table-responsive">
-                    <table class="table table-striped table-hover">
-                        <thead>
-                            <tr>
-                                <th>Title</th>
-                                <th>Content</th>
-                                <th>Created On</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @if (Model != null)
+    <a class="btn btn-primary m-2" style="width: 100px; position: relative; right: -185px;" type="button"
+        asp-action="CreatePost">
+        New Blog
+    </a>
+    <div class="d-flex justify-content-center align-items-center" style="width: 900px;">
+        <div class="col-12 col-md-10 col-lg-8 w-100">
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Content</th>
+                            <th>Created On</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null)
+                        {
+                            @foreach (var item in Model)
                             {
-                                @foreach (var item in Model)
-                                {
-                                    <tr>
-                                        <td>@Html.DisplayFor(modelItem => item.Title)</td>
-                                        <td>
-                            @{
-                                if (item.Content.Length > 225)
-                                {
-                                    var trimmedContent = item.Content.Substring(0, 225) + "...";
-                                    @Html.Raw(trimmedContent);
-                                }
-                                else {
-                                    @Html.Raw(item.Content);
-                                }
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                                    <td>
+                                        @{
+                                            if (item.Content.Length > 225)
+                                            {
+                                                var trimmedContent = item.Content.Substring(0, 225) + "...";
+                                                @Html.Raw(trimmedContent)
+                                                ;
+                                            }
+                                            else
+                                            {
+                                                @Html.Raw(item.Content)
+                                                ;
+                                            }
+                                        }
+                                    </td>
+                                    <td>@item.CreatedOn.ToString("MMMM dd, yyyy")</td>
+                                    <td>
+                                        <form asp-action="ViewPost" asp-controller="Post" asp-route-itemid="@item.Id">
+                                            <input type="hidden" name="id" value="@item.Id" />
+                                            <button type="submit" class="btn btn-primary">
+                                                Read more
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
                             }
-                        </td>
-                                        <td>@item.CreatedOn.ToString("MMMM dd, yyyy")</td>
-                                        <td>
-                                            <form asp-action="ViewPost" asp-controller="Post" asp-route-itemid="@item.Id">
-                                                <input type="hidden" name="id" value="@item.Id" />
-                                                <button type="submit" class="btn btn-primary">
-                                                    Read more
-                                                </button>
-                                            </form>
-                                        </td>
-                                    </tr>
-                                }
-                            }
-                        </tbody>
-                    </table>
-                </div>
+                        }
+                    </tbody>
+                </table>
             </div>
-
         </div>
+
     </div>
+</div>
 </div>

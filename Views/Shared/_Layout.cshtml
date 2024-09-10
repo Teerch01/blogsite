@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,28 +8,27 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/blogsite.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" asp-append-version="true">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" asp-append-version="true">
-  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        asp-append-version="true">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+        asp-append-version="true">
 </head>
-<body class="d-flex" style="flex-direction:column; padding-top:70px; 
+
+<body class="d-flex" style="padding-top:70px; 
 background-image:url(https://img.freepik.com/free-vector/luxury-blue-golden-background_23-2149329431.jpg?t=st=1723205158~exp=1723208758~hmac=161bb00079105c9aff75808e31303a57ae45449490c1fb04e109ac72c214e6c0&w=1060);
     background-repeat:no-repeat; background-size:cover">
     <header class="position-fixed" style="width:100%; top:0; z-index: 1000">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">blogsite</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
                     @await Html.PartialAsync("_LoginPartial")
@@ -42,7 +42,7 @@ background-image:url(https://img.freepik.com/free-vector/luxury-blue-golden-back
         </main>
     </div>
 
-    <footer class="border-top footer text-muted position-fixed w-100" style="background-color: white; bottom: 0;" >
+    <footer class="border-top footer text-muted position-fixed w-100" style="background-color: white; bottom: 0;">
         <div class="container" style="margin-left: initial; margin-right:initial; color: black">
             &copy; 2024 - blogsite - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
@@ -52,4 +52,5 @@ background-image:url(https://img.freepik.com/free-vector/luxury-blue-golden-back
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>

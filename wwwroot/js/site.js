@@ -36,8 +36,22 @@
     }
 });
 
-var editor1 = new RichTextEditor("#div_editor1");
-    // Add an event listener to update the hidden input before form submission
+
+
+const editor1Element = document.getElementById('div_editor1');
+
+if (editor1Element) {
+    var editor1 = new RichTextEditor(editor1Element); // Pass the element directly
+
     document.querySelector('form').addEventListener('submit', function() {
-        document.getElementById('input').value = editor1.getHTMLCode(); 
+        document.getElementById('input').value = editor1.getHTMLCode();
     });
+}
+
+// var editor1 = new RichTextEditor("#div_editor1");
+//     // Add an event listener to update the hidden input before form submission
+//     document.querySelector('form').addEventListener('submit', function() {
+//         document.getElementById('input').value = editor1.getHTMLCode(); 
+//     });
+
+    

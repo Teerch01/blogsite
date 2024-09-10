@@ -22,12 +22,12 @@
                 <div class="card-body" style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
                     <img style="width: 100%; height: 100%" src="~/@item.ImageUrl" alt="Card image cap">
                     <div style="padding: 10px;">
-                        <h5 class="card-title text-center" style="margin: 0;">@Html.DisplayFor(modelItem => item.Title)</h5>
+                        <h5 class="card-title" style="margin: 0;">@Html.DisplayFor(modelItem => item.Title)</h5>
                         <p>
                             @{
-                                if (item.Content.Length > 225)
+                                if (item.Content.Length > 100)
                                 {
-                                    var trimmedContent = item.Content.Substring(0, 225) + "...";
+                                    var trimmedContent = item.Content.Substring(0, 100) + "...";
                                     @Html.Raw(trimmedContent);
                                 }
                                 else {
