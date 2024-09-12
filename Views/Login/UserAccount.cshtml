@@ -12,54 +12,32 @@
     overflow: hidden;
 }
 </style>
-<div class="container justify-content-center align-items-center" style="max-width:750px;">
-    <h1 class="text-center" style="color:azure">Blogs</h1>
-    @if (Model != null)
-    {
-        @foreach (var item in Model)
+<div class="useraccount">
+    <div class="container justify-content-center align-items-center" style="max-width:750px;">
+        <h1 class="text-center">Blogs</h1>
+        @if (Model != null)
         {
-            <div class="card" style="flex: 0 0 30%; margin: 10px;">
-                <div class="card-body" style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-                    <img style="width: 100%; height: 100%" src="~/@item.ImageUrl" alt="Card image cap">
-                    <div style="padding: 10px;">
-                        <h5 class="card-title" style="margin: 0;">@Html.DisplayFor(modelItem => item.Title)</h5>
-                        <p>
-                            @{
-                                if (item.Content.Length > 100)
-                                {
-                                    var trimmedContent = item.Content.Substring(0, 100) + "...";
-                                    @Html.Raw(trimmedContent);
-                                }
-                                else {
-                                    @Html.Raw(item.Content);
-                                }
-                            }
-                        </p>
-                        <div class="align-items-center d-flex flex-row justify-content-between">
-                            <form asp-action="ViewPost" asp-controller="Post" asp-route-itemid="@item.Id">
-                                <input type="hidden" name="id" value="@item.Id" />
-                                <button type="submit" style="background: none; border: none; padding: 0;">
-                                    Read more
-                                </button>
-                            </form>
-                            <small style="margin: 0;padding-left:100px">Posted on @item.CreatedOn.ToString("MMMM dd, yyyy")</small>
-                        </div>
+            @foreach (var item in Model)
+            {
+                <form asp-action="ViewPost" asp-controller="Post"  asp-route-itemid="@item.Id" class="card-index">
+                <input type="hidden" name="id" value="@item.Id" />
+                <button class="card-index-body d-flex flex-row">
+                    <div class="content">
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Title)</h5>
+                        <small style="margin: 0; font-size: 13px;">Posted on @item.CreatedOn.ToString("MMMM dd, yyyy")</small>
                     </div>
-                </div>
-            </div>
+                    <img src="images/pexels-thisisengineering-3913025.jpg" alt="img">
+                </button>
+            </form>
+            }
         }
-    }
-</div>
-
-<div class="container flex-column d-flex justify-content-center align-content-center">
-    <h6 class="text-center" style="color: white;"> Hello @ViewBag.Name</h6>
-
-    <div class="form-group text-center justify-content-center align-items-center">
-        <a class="btn btn-primary" style="margin-right:10px" type="button" asp-controller="Post" asp-action="CreatePost">
-            Create Blog
-        </a>
-        <a class="btn btn-primary" style="margin-right:10px" type="button" asp-controller="Post" asp-action="UserPosts">
-            My Blogs
-        </a>
     </div>
+
+    @* <div class="container flex-column d-flex justify-content-center align-content-center">
+        <div class="form-group text-center justify-content-center align-items-center">
+            <a class="btn btn-primary" style="margin-right:10px" type="button" asp-controller="Post" asp-action="CreatePost">
+                Create Blog
+            </a>
+        </div>
+    </div> *@
 </div>
