@@ -6734,24 +6734,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/habib/.nuget/packages/": {}
+    "C:\\Users\\oyund\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/habib/Desktop/blogsite/blogsite.csproj",
+      "projectUniqueName": "d:\\Desktop\\proj\\blogsite\\blogsite.csproj",
       "projectName": "blogsite",
-      "projectPath": "/Users/habib/Desktop/blogsite/blogsite.csproj",
-      "packagesPath": "/Users/habib/.nuget/packages/",
-      "outputPath": "/Users/habib/Desktop/blogsite/obj/",
+      "projectPath": "d:\\Desktop\\proj\\blogsite\\blogsite.csproj",
+      "packagesPath": "C:\\Users\\oyund\\.nuget\\packages\\",
+      "outputPath": "d:\\Desktop\\proj\\blogsite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/habib/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\oyund\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6819,7 +6821,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

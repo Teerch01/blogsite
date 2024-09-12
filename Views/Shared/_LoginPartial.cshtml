@@ -2,14 +2,83 @@
 {
     <form asp-controller="Login" asp-action="LogOut" method="post" id="Logoutform" class="navbar-right">
         <ul class="nav navbar-nav navbar-left">
-            <li style="align-content:center">
+            <li class="user" style="align-content:center">
                 Hello @Context.User.Identity.Name
             </li>
             <li>
-                <a class="btn btn-link navbar-btn navbar-link text-decoration-none" asp-controller="Login" asp-action="UserAccount">Account</a>
+                <a class="btn navbar-btn navbar-link text-decoration-none" asp-controller="Post"
+                    asp-action="CreatePost">Write</a>
             </li>
-            <li>
-                <button type="submit" class="btn btn-link navbar-btn navbar-link text-decoration-none">LogOut</button>
+            <li class="profile-container">
+                <label id="profile-trigger">Profile</label>
+                <nav id="side-nav">
+                    <ul class="top-side-nav">
+                        <li>
+                            <a class="btn btn-link navbar-btn navbar-link text-decoration-none" style="text-align: left;"
+                                asp-controller="Login" asp-action="UserAccount">
+                                <i class="fa-solid fa-user"></i>
+                                Account
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn btn-link navbar-btn navbar-link text-decoration-none">
+                                <i class="fa-solid fa-book"></i>
+                                Library
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn btn-link navbar-btn navbar-link text-decoration-none" asp-controller="Post" asp-action="UserPosts">
+                                <i class="fa-solid fa-blog"></i>
+                                My Blogs
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn btn-link navbar-btn navbar-link text-decoration-none">
+                                <i class="fa-solid fa-chart-simple"></i>
+                                Stats
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="mid-side-nav">
+                        <li>
+                            <a class="btn btn-link navbar-btn navbar-link text-decoration-none">
+                                Recommendations
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn btn-link navbar-btn navbar-link text-decoration-none">
+                                Manage publications
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn btn-link navbar-btn navbar-link text-decoration-none" >
+                                Become a member
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="bottom-side-nav">
+                        <li>
+                            <a class="btn navbar-btn navbar-link text-decoration-none">
+                                <iconify-icon class="icon" icon="material-symbols:settings" width="1.4em" height="1.4em"></iconify-icon>
+                                Settings
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn navbar-btn navbar-link text-decoration-none"
+                                style="width: 100%; text-align: left;">
+                                <iconify-icon class="icon" icon="mdi:chat-help" width="1.4em" height="1.4em"></iconify-icon>
+                                Help
+                            </a>
+                        </li>
+                        <li>
+                            <button type="submit" class="btn navbar-btn navbar-link text-decoration-none"
+                                style="width: 100%; text-align: left;">
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                LogOut
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
             </li>
         </ul>
     </form>
@@ -18,9 +87,9 @@
 else
 {
     <ul class="nav navbar-nav navbar-right">
-        <li><a class="btn btn-link navbar-btn navbar-link text-decoration-none" asp-controller="Register" asp-action="Register">Register</a></li>
-        <li><a class="btn btn-link navbar-btn navbar-link text-decoration-none" asp-controller="Login" asp-action="Login">Login</a></li>
+        <li><a class="btn btn-link navbar-btn navbar-link text-decoration-none" asp-controller="Register"
+                asp-action="Register">Register</a></li>
+        <li><a class="btn btn-link navbar-btn navbar-link text-decoration-none" asp-controller="Login"
+                asp-action="Login">Login</a></li>
     </ul>
 }
-
-

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1r9E5rsAsB4kGnmiRunFT3d0KvLVs6AvSZEp6honfqc=",
+  "Hash": "tENmqrmHJEAgujksWwxnBWOKGVODpFopyBv3heENmkQ=",
   "Source": "blogsite",
   "BasePath": "_content/blogsite",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "blogsite/wwwroot",
+      "Name": "blogsite\\wwwroot",
       "Source": "blogsite",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/habib/Desktop/blogsite/obj/Debug/net8.0/scopedcss/bundle/blogsite.styles.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\obj\\Debug\\net8.0\\scopedcss\\bundle\\blogsite.styles.css",
       "SourceId": "blogsite",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "blogsite.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/habib/Desktop/blogsite/obj/Debug/net8.0/scopedcss/bundle/blogsite.styles.css"
+      "OriginalItemSpec": "D:\\Desktop\\proj\\blogsite\\obj\\Debug\\net8.0\\scopedcss\\bundle\\blogsite.styles.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/obj/Debug/net8.0/scopedcss/projectbundle/blogsite.bundle.scp.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blogsite.bundle.scp.css",
       "SourceId": "blogsite",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "blogsite.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/habib/Desktop/blogsite/obj/Debug/net8.0/scopedcss/projectbundle/blogsite.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Desktop\\proj\\blogsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blogsite.bundle.scp.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/css/site.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\css\\site.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/favicon.ico",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\favicon.ico",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/images/e54764bb-d6d4-4075-980c-85e998894042_tropical-leaves-background-zoom_23-2148580778.avif",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\images\\e54764bb-d6d4-4075-980c-85e998894042_tropical-leaves-background-zoom_23-2148580778.avif",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "images/e54764bb-d6d4-4075-980c-85e998894042_tropical-leaves-background-zoom_23-2148580778.avif",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/e54764bb-d6d4-4075-980c-85e998894042_tropical-leaves-background-zoom_23-2148580778.avif"
+      "OriginalItemSpec": "wwwroot\\images\\e54764bb-d6d4-4075-980c-85e998894042_tropical-leaves-background-zoom_23-2148580778.avif"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/images/efb380e3-b97c-4a68-923e-0fdc8bd41340_tropical-leaves-background-zoom_23-2148580778.avif",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\images\\efb380e3-b97c-4a68-923e-0fdc8bd41340_tropical-leaves-background-zoom_23-2148580778.avif",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "images/efb380e3-b97c-4a68-923e-0fdc8bd41340_tropical-leaves-background-zoom_23-2148580778.avif",
       "AssetKind": "All",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/efb380e3-b97c-4a68-923e-0fdc8bd41340_tropical-leaves-background-zoom_23-2148580778.avif"
+      "OriginalItemSpec": "wwwroot\\images\\efb380e3-b97c-4a68-923e-0fdc8bd41340_tropical-leaves-background-zoom_23-2148580778.avif"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/images/pexels-thisisengineering-3913025.jpg",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\images\\pexels-thisisengineering-3913025.jpg",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "images/pexels-thisisengineering-3913025.jpg",
       "AssetKind": "All",
@@ -147,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/pexels-thisisengineering-3913025.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\pexels-thisisengineering-3913025.jpg"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/js/site.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\js\\site.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -204,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -223,13 +223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -242,13 +242,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -261,13 +261,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -280,13 +280,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -299,13 +299,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -318,13 +318,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -356,13 +356,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -375,13 +375,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -394,13 +394,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -413,13 +413,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -432,13 +432,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -451,13 +451,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -470,13 +470,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -489,13 +489,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -508,13 +508,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -527,13 +527,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -546,13 +546,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -565,13 +565,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -584,13 +584,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -603,13 +603,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -622,13 +622,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -641,13 +641,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -679,13 +679,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -698,13 +698,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -717,13 +717,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -736,13 +736,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -755,13 +755,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -774,13 +774,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -793,13 +793,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -812,13 +812,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -831,13 +831,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -850,13 +850,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -869,13 +869,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -888,13 +888,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -907,13 +907,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -926,13 +926,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -945,13 +945,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -964,13 +964,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1002,13 +1002,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1021,13 +1021,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1040,13 +1040,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1059,13 +1059,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1078,13 +1078,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1097,13 +1097,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1116,13 +1116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1135,13 +1135,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1154,13 +1154,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1211,13 +1211,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1230,13 +1230,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1249,13 +1249,70 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-af.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\Login\\images\\e54764bb-d6d4-4075-980c-85e998894042_tropical-leaves-background-zoom_23-2148580778.avif",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
+      "BasePath": "_content/blogsite",
+      "RelativePath": "Login/images/e54764bb-d6d4-4075-980c-85e998894042_tropical-leaves-background-zoom_23-2148580778.avif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Login\\images\\e54764bb-d6d4-4075-980c-85e998894042_tropical-leaves-background-zoom_23-2148580778.avif"
+    },
+    {
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\Login\\images\\efb380e3-b97c-4a68-923e-0fdc8bd41340_tropical-leaves-background-zoom_23-2148580778.avif",
+      "SourceId": "blogsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
+      "BasePath": "_content/blogsite",
+      "RelativePath": "Login/images/efb380e3-b97c-4a68-923e-0fdc8bd41340_tropical-leaves-background-zoom_23-2148580778.avif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Login\\images\\efb380e3-b97c-4a68-923e-0fdc8bd41340_tropical-leaves-background-zoom_23-2148580778.avif"
+    },
+    {
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\Login\\images\\pexels-thisisengineering-3913025.jpg",
+      "SourceId": "blogsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
+      "BasePath": "_content/blogsite",
+      "RelativePath": "Login/images/pexels-thisisengineering-3913025.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Login\\images\\pexels-thisisengineering-3913025.jpg"
+    },
+    {
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-af.js",
+      "SourceId": "blogsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-af.js",
       "AssetKind": "All",
@@ -1268,13 +1325,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-af.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-af.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ar.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-ar.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-ar.js",
       "AssetKind": "All",
@@ -1287,13 +1344,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-ar.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-ar.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-bg.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-bg.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-bg.js",
       "AssetKind": "All",
@@ -1306,13 +1363,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-bg.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-bg.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-bn.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-bn.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-bn.js",
       "AssetKind": "All",
@@ -1325,13 +1382,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-bn.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-bn.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-bs.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-bs.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-bs.js",
       "AssetKind": "All",
@@ -1344,13 +1401,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-bs.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-bs.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ca.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-ca.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-ca.js",
       "AssetKind": "All",
@@ -1363,13 +1420,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-ca.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-ca.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-cs.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-cs.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-cs.js",
       "AssetKind": "All",
@@ -1382,13 +1439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-cs.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-cs.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-cy.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-cy.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-cy.js",
       "AssetKind": "All",
@@ -1401,13 +1458,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-cy.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-cy.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-da.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-da.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-da.js",
       "AssetKind": "All",
@@ -1420,13 +1477,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-da.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-da.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-de.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-de.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-de.js",
       "AssetKind": "All",
@@ -1439,13 +1496,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-de.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-de.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-el.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-el.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-el.js",
       "AssetKind": "All",
@@ -1458,13 +1515,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-el.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-el.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-en.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-en.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-en.js",
       "AssetKind": "All",
@@ -1477,13 +1534,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-en.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-en.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-es.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-es.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-es.js",
       "AssetKind": "All",
@@ -1496,13 +1553,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-es.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-es.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-et.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-et.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-et.js",
       "AssetKind": "All",
@@ -1515,13 +1572,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-et.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-et.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-fa.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-fa.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-fa.js",
       "AssetKind": "All",
@@ -1534,13 +1591,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-fa.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-fa.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-fi.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-fi.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-fi.js",
       "AssetKind": "All",
@@ -1553,13 +1610,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-fi.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-fi.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-fil.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-fil.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-fil.js",
       "AssetKind": "All",
@@ -1572,13 +1629,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-fil.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-fil.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-fj.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-fj.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-fj.js",
       "AssetKind": "All",
@@ -1591,13 +1648,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-fj.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-fj.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-fr.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-fr.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-fr.js",
       "AssetKind": "All",
@@ -1610,13 +1667,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-fr.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-fr.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ga.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-ga.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-ga.js",
       "AssetKind": "All",
@@ -1629,13 +1686,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-ga.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-ga.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-gu.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-gu.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-gu.js",
       "AssetKind": "All",
@@ -1648,13 +1705,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-gu.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-gu.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-he.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-he.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-he.js",
       "AssetKind": "All",
@@ -1667,13 +1724,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-he.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-he.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-hi.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-hi.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-hi.js",
       "AssetKind": "All",
@@ -1686,13 +1743,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-hi.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-hi.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-hr.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-hr.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-hr.js",
       "AssetKind": "All",
@@ -1705,13 +1762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-hr.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-hr.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ht.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-ht.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-ht.js",
       "AssetKind": "All",
@@ -1724,13 +1781,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-ht.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-ht.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-hu.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-hu.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-hu.js",
       "AssetKind": "All",
@@ -1743,13 +1800,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-hu.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-hu.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-id.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-id.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-id.js",
       "AssetKind": "All",
@@ -1762,13 +1819,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-id.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-id.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-is.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-is.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-is.js",
       "AssetKind": "All",
@@ -1781,13 +1838,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-is.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-is.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-it.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-it.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-it.js",
       "AssetKind": "All",
@@ -1800,13 +1857,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-it.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-it.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ja.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-ja.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-ja.js",
       "AssetKind": "All",
@@ -1819,13 +1876,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-ja.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-ja.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-kn.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-kn.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-kn.js",
       "AssetKind": "All",
@@ -1838,13 +1895,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-kn.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-kn.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ko.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-ko.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-ko.js",
       "AssetKind": "All",
@@ -1857,13 +1914,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-ko.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-ko.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-lt.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-lt.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-lt.js",
       "AssetKind": "All",
@@ -1876,13 +1933,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-lt.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-lt.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-lv.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-lv.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-lv.js",
       "AssetKind": "All",
@@ -1895,13 +1952,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-lv.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-lv.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-mg.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-mg.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-mg.js",
       "AssetKind": "All",
@@ -1914,13 +1971,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-mg.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-mg.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-mi.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-mi.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-mi.js",
       "AssetKind": "All",
@@ -1933,13 +1990,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-mi.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-mi.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ml.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-ml.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-ml.js",
       "AssetKind": "All",
@@ -1952,13 +2009,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-ml.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-ml.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-mr.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-mr.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-mr.js",
       "AssetKind": "All",
@@ -1971,13 +2028,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-mr.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-mr.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ms.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-ms.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-ms.js",
       "AssetKind": "All",
@@ -1990,13 +2047,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-ms.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-ms.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-mt.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-mt.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-mt.js",
       "AssetKind": "All",
@@ -2009,13 +2066,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-mt.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-mt.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-mww.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-mww.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-mww.js",
       "AssetKind": "All",
@@ -2028,13 +2085,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-mww.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-mww.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-nb.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-nb.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-nb.js",
       "AssetKind": "All",
@@ -2047,13 +2104,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-nb.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-nb.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-nl.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-nl.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-nl.js",
       "AssetKind": "All",
@@ -2066,13 +2123,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-nl.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-nl.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-otq.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-otq.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-otq.js",
       "AssetKind": "All",
@@ -2085,13 +2142,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-otq.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-otq.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-pa.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-pa.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-pa.js",
       "AssetKind": "All",
@@ -2104,13 +2161,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-pa.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-pa.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-pl.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-pl.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-pl.js",
       "AssetKind": "All",
@@ -2123,13 +2180,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-pl.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-pl.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-pt-pt.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-pt-pt.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-pt-pt.js",
       "AssetKind": "All",
@@ -2142,13 +2199,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-pt-pt.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-pt-pt.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-pt.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-pt.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-pt.js",
       "AssetKind": "All",
@@ -2161,13 +2218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-pt.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-pt.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ro.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-ro.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-ro.js",
       "AssetKind": "All",
@@ -2180,13 +2237,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-ro.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-ro.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ru.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-ru.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-ru.js",
       "AssetKind": "All",
@@ -2199,13 +2256,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-ru.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-ru.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-sk.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-sk.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-sk.js",
       "AssetKind": "All",
@@ -2218,13 +2275,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-sk.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-sk.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-sl.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-sl.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-sl.js",
       "AssetKind": "All",
@@ -2237,13 +2294,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-sl.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-sl.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-sm.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-sm.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-sm.js",
       "AssetKind": "All",
@@ -2256,13 +2313,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-sm.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-sm.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-sr-Cyrl.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-sr-Cyrl.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-sr-Cyrl.js",
       "AssetKind": "All",
@@ -2275,13 +2332,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-sr-Cyrl.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-sr-Cyrl.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-sr-Latn.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-sr-Latn.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-sr-Latn.js",
       "AssetKind": "All",
@@ -2294,13 +2351,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-sr-Latn.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-sr-Latn.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-sv.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-sv.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-sv.js",
       "AssetKind": "All",
@@ -2313,13 +2370,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-sv.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-sv.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-sw.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-sw.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-sw.js",
       "AssetKind": "All",
@@ -2332,13 +2389,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-sw.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-sw.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ta.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-ta.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-ta.js",
       "AssetKind": "All",
@@ -2351,13 +2408,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-ta.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-ta.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-te.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-te.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-te.js",
       "AssetKind": "All",
@@ -2370,13 +2427,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-te.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-te.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-th.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-th.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-th.js",
       "AssetKind": "All",
@@ -2389,13 +2446,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-th.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-th.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-tlh-Latn.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-tlh-Latn.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-tlh-Latn.js",
       "AssetKind": "All",
@@ -2408,13 +2465,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-tlh-Latn.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-tlh-Latn.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-tlh-Piqd.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-tlh-Piqd.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-tlh-Piqd.js",
       "AssetKind": "All",
@@ -2427,13 +2484,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-tlh-Piqd.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-tlh-Piqd.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-to.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-to.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-to.js",
       "AssetKind": "All",
@@ -2446,13 +2503,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-to.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-to.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-tr.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-tr.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-tr.js",
       "AssetKind": "All",
@@ -2465,13 +2522,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-tr.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-tr.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ty.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-ty.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-ty.js",
       "AssetKind": "All",
@@ -2484,13 +2541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-ty.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-ty.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-uk.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-uk.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-uk.js",
       "AssetKind": "All",
@@ -2503,13 +2560,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-uk.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-uk.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-ur.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-ur.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-ur.js",
       "AssetKind": "All",
@@ -2522,13 +2579,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-ur.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-ur.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-vi.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-vi.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-vi.js",
       "AssetKind": "All",
@@ -2541,13 +2598,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-vi.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-vi.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-yua.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-yua.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-yua.js",
       "AssetKind": "All",
@@ -2560,13 +2617,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-yua.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-yua.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-zh-Hans.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-zh-Hans.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-zh-Hans.js",
       "AssetKind": "All",
@@ -2579,13 +2636,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-zh-Hans.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-zh-Hans.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang-zh-Hant.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang-zh-Hant.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang-zh-Hant.js",
       "AssetKind": "All",
@@ -2598,13 +2655,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang-zh-Hant.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang-zh-Hant.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/lang/rte-lang.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\lang\\rte-lang.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/lang/rte-lang.js",
       "AssetKind": "All",
@@ -2617,13 +2674,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/lang/rte-lang.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\lang\\rte-lang.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/-combine-plugin.txt",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\-combine-plugin.txt",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/-combine-plugin.txt",
       "AssetKind": "All",
@@ -2636,13 +2693,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/-combine-plugin.txt"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\-combine-plugin.txt"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/all_plugins.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\all_plugins.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/all_plugins.js",
       "AssetKind": "All",
@@ -2655,13 +2712,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/all_plugins.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\all_plugins.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/html2pdf.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\html2pdf.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/html2pdf.js",
       "AssetKind": "All",
@@ -2674,13 +2731,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/html2pdf.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\html2pdf.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/imageeditor.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\imageeditor.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/imageeditor.js",
       "AssetKind": "All",
@@ -2693,13 +2750,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/imageeditor.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\imageeditor.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/insertcode.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\insertcode.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/insertcode.js",
       "AssetKind": "All",
@@ -2712,13 +2769,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/insertcode.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\insertcode.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/insertemoji.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\insertemoji.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/insertemoji.js",
       "AssetKind": "All",
@@ -2731,13 +2788,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/insertemoji.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\insertemoji.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/insertgallery.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\insertgallery.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/insertgallery.js",
       "AssetKind": "All",
@@ -2750,13 +2807,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/insertgallery.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\insertgallery.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/inserttemplate.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\inserttemplate.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/inserttemplate.js",
       "AssetKind": "All",
@@ -2769,13 +2826,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/inserttemplate.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\inserttemplate.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/samples/insertcode_v1.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\samples\\insertcode_v1.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/samples/insertcode_v1.js",
       "AssetKind": "All",
@@ -2788,13 +2845,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/samples/insertcode_v1.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\samples\\insertcode_v1.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/fabric.min.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\fabric.min.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/tui.image-editor/fabric.min.js",
       "AssetKind": "All",
@@ -2807,13 +2864,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/tui.image-editor/fabric.min.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\tui.image-editor\\fabric.min.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/note.txt",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\note.txt",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/tui.image-editor/note.txt",
       "AssetKind": "All",
@@ -2826,13 +2883,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/tui.image-editor/note.txt"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\tui.image-editor\\note.txt"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/svg/icon-a.svg",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-a.svg",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/tui.image-editor/svg/icon-a.svg",
       "AssetKind": "All",
@@ -2845,13 +2902,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/tui.image-editor/svg/icon-a.svg"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-a.svg"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/svg/icon-b.svg",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-b.svg",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/tui.image-editor/svg/icon-b.svg",
       "AssetKind": "All",
@@ -2864,13 +2921,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/tui.image-editor/svg/icon-b.svg"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-b.svg"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/svg/icon-c.svg",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-c.svg",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/tui.image-editor/svg/icon-c.svg",
       "AssetKind": "All",
@@ -2883,13 +2940,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/tui.image-editor/svg/icon-c.svg"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-c.svg"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/svg/icon-d.svg",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-d.svg",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/tui.image-editor/svg/icon-d.svg",
       "AssetKind": "All",
@@ -2902,13 +2959,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/tui.image-editor/svg/icon-d.svg"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-d.svg"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/tui-code-snippet.min.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-code-snippet.min.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/tui.image-editor/tui-code-snippet.min.js",
       "AssetKind": "All",
@@ -2921,13 +2978,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/tui.image-editor/tui-code-snippet.min.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-code-snippet.min.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/tui-color-picker.min.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/tui.image-editor/tui-color-picker.min.css",
       "AssetKind": "All",
@@ -2940,13 +2997,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/tui.image-editor/tui-color-picker.min.css"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/tui-color-picker.min.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/tui.image-editor/tui-color-picker.min.js",
       "AssetKind": "All",
@@ -2959,13 +3016,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/tui.image-editor/tui-color-picker.min.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/tui-image-editor.min.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/tui.image-editor/tui-image-editor.min.css",
       "AssetKind": "All",
@@ -2978,13 +3035,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/tui.image-editor/tui-image-editor.min.css"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/plugins/tui.image-editor/tui-image-editor.min.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/plugins/tui.image-editor/tui-image-editor.min.js",
       "AssetKind": "All",
@@ -2997,13 +3054,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/plugins/tui.image-editor/tui-image-editor.min.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/rte_theme_default.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\rte_theme_default.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/rte_theme_default.css",
       "AssetKind": "All",
@@ -3016,13 +3073,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/rte_theme_default.css"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\rte_theme_default.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/rte.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\rte.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/rte.js",
       "AssetKind": "All",
@@ -3035,13 +3092,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/rte.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\rte.js"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/colorpicker_more_ns.htm",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\colorpicker_more_ns.htm",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/colorpicker_more_ns.htm",
       "AssetKind": "All",
@@ -3054,13 +3111,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/colorpicker_more_ns.htm"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\colorpicker_more_ns.htm"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/help.htm",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\help.htm",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/help.htm",
       "AssetKind": "All",
@@ -3073,13 +3130,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/help.htm"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\help.htm"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/1x1.gif",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\1x1.gif",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/1x1.gif",
       "AssetKind": "All",
@@ -3092,13 +3149,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/1x1.gif"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\1x1.gif"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpie_Color.cur",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpie_Color.cur",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpie_Color.cur",
       "AssetKind": "All",
@@ -3111,13 +3168,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpie_Color.cur"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpie_Color.cur"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpie_GradientPositionDark.gif",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpie_GradientPositionDark.gif",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpie_GradientPositionDark.gif",
       "AssetKind": "All",
@@ -3130,13 +3187,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpie_GradientPositionDark.gif"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpie_GradientPositionDark.gif"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpie_GradientPositionLight.gif",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpie_GradientPositionLight.gif",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpie_GradientPositionLight.gif",
       "AssetKind": "All",
@@ -3149,13 +3206,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpie_GradientPositionLight.gif"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpie_GradientPositionLight.gif"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpie_gradients.png",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpie_gradients.png",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpie_gradients.png",
       "AssetKind": "All",
@@ -3168,13 +3225,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpie_gradients.png"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpie_gradients.png"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpie_VerticalPosition.gif",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpie_VerticalPosition.gif",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpie_VerticalPosition.gif",
       "AssetKind": "All",
@@ -3187,13 +3244,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpie_VerticalPosition.gif"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpie_VerticalPosition.gif"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpie_WebSafe.gif",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpie_WebSafe.gif",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpie_WebSafe.gif",
       "AssetKind": "All",
@@ -3206,13 +3263,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpie_WebSafe.gif"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpie_WebSafe.gif"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_Color.cur",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpns_Color.cur",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpns_Color.cur",
       "AssetKind": "All",
@@ -3225,13 +3282,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpns_Color.cur"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpns_Color.cur"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_ColorSpace1.png",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpns_ColorSpace1.png",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpns_ColorSpace1.png",
       "AssetKind": "All",
@@ -3244,13 +3301,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpns_ColorSpace1.png"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpns_ColorSpace1.png"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_ColorSpace2.png",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpns_ColorSpace2.png",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpns_ColorSpace2.png",
       "AssetKind": "All",
@@ -3263,13 +3320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpns_ColorSpace2.png"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpns_ColorSpace2.png"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_GradientPositionDark.gif",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpns_GradientPositionDark.gif",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpns_GradientPositionDark.gif",
       "AssetKind": "All",
@@ -3282,13 +3339,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpns_GradientPositionDark.gif"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpns_GradientPositionDark.gif"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_GradientPositionLight.gif",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpns_GradientPositionLight.gif",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpns_GradientPositionLight.gif",
       "AssetKind": "All",
@@ -3301,13 +3358,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpns_GradientPositionLight.gif"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpns_GradientPositionLight.gif"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_gradients.png",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpns_gradients.png",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpns_gradients.png",
       "AssetKind": "All",
@@ -3320,13 +3377,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpns_gradients.png"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpns_gradients.png"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_hue2.png",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpns_hue2.png",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpns_hue2.png",
       "AssetKind": "All",
@@ -3339,13 +3396,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpns_hue2.png"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpns_hue2.png"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_Vertical1.png",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpns_Vertical1.png",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpns_Vertical1.png",
       "AssetKind": "All",
@@ -3358,13 +3415,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpns_Vertical1.png"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpns_Vertical1.png"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_Vertical2.png",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpns_Vertical2.png",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpns_Vertical2.png",
       "AssetKind": "All",
@@ -3377,13 +3434,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpns_Vertical2.png"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpns_Vertical2.png"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_VerticalPosition.gif",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpns_VerticalPosition.gif",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpns_VerticalPosition.gif",
       "AssetKind": "All",
@@ -3396,13 +3453,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpns_VerticalPosition.gif"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpns_VerticalPosition.gif"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/cpns_WebSafe.gif",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\cpns_WebSafe.gif",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/cpns_WebSafe.gif",
       "AssetKind": "All",
@@ -3415,13 +3472,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/cpns_WebSafe.gif"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\cpns_WebSafe.gif"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/formbn.gif",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\formbn.gif",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/formbn.gif",
       "AssetKind": "All",
@@ -3434,13 +3491,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/formbn.gif"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\formbn.gif"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/images/multiclavier.gif",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\images\\multiclavier.gif",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/images/multiclavier.gif",
       "AssetKind": "All",
@@ -3453,13 +3510,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/images/multiclavier.gif"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\images\\multiclavier.gif"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/richtexteditor_content.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\richtexteditor_content.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/richtexteditor_content.css",
       "AssetKind": "All",
@@ -3472,13 +3529,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/richtexteditor_content.css"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\richtexteditor_content.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/richtexteditor_preview.css",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\richtexteditor_preview.css",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/richtexteditor_preview.css",
       "AssetKind": "All",
@@ -3491,13 +3548,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/richtexteditor_preview.css"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\richtexteditor_preview.css"
     },
     {
-      "Identity": "/Users/habib/Desktop/blogsite/wwwroot/richtexteditor/runtime/richtexteditor_preview.js",
+      "Identity": "D:\\Desktop\\proj\\blogsite\\wwwroot\\richtexteditor\\runtime\\richtexteditor_preview.js",
       "SourceId": "blogsite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/habib/Desktop/blogsite/wwwroot/",
+      "ContentRoot": "D:\\Desktop\\proj\\blogsite\\wwwroot\\",
       "BasePath": "_content/blogsite",
       "RelativePath": "richtexteditor/runtime/richtexteditor_preview.js",
       "AssetKind": "All",
@@ -3510,7 +3567,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/richtexteditor/runtime/richtexteditor_preview.js"
+      "OriginalItemSpec": "wwwroot\\richtexteditor\\runtime\\richtexteditor_preview.js"
     }
   ]
 }
