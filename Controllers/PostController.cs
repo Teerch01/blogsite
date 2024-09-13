@@ -19,6 +19,7 @@ namespace blogsite.Controllers
 		}
 
 		[HttpPost]
+		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> CreatePost(PostRequestDTO newPost)
 		{
 			if (ModelState.IsValid)
@@ -200,6 +201,25 @@ namespace blogsite.Controllers
 			}
 
 			return Json(new { success = false });
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> Search([FromForm]string searchQuery)
+		{
+			try
+			{
+				var result = await _service.Search(searchQuery.ToUpper());
+				if (result != null)
+				{
+					return View(result.Select(_mapper.Map<PostResponseDTO>));
+				}
+			}
+			catch (Exception)
+			{
+				ModelState.AddModelError("", "No results found");
+				return View();
+			}
+			return View();
 		}
 	}
 }
