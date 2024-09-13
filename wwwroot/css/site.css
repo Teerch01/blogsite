@@ -21,6 +21,13 @@ html {
   min-height: 100%;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
 body {
   min-height: 100vh;
 }
@@ -90,8 +97,31 @@ main {
   margin-bottom: 4rem;
 }
 
+.delete-post {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.delete-post h3 {
+  text-align: center;
+}
+
 .user {
   cursor: default;
+}
+
+#search-form {
+  display: flex;
+  margin-right: 10px;
+}
+
+#search-form .btn {
+  border-color: #d4d2d2;
+}
+
+#search button {
+  align-items: center;
+  justify-content: center;
 }
 
 .profile-container {

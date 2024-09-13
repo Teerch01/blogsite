@@ -20,47 +20,47 @@ namespace blogsite.Controllers
 
 		[HttpPost]
 		public async Task<IActionResult> CreatePost(PostRequestDTO newPost)
-{
-	if (ModelState.IsValid)
-	{
-		try
 		{
-			string imageUrl = await SaveImageAsync(newPost.ImageFile);
+			if (ModelState.IsValid)
+			{
+				try
+				{
+					string imageUrl = await SaveImageAsync(newPost.ImageFile);
 
-			var username = HttpContext.User.Identity.Name;
-			var user = await _service.GetUserByUserNameAsync(username);
+					var username = HttpContext.User.Identity.Name;
+					var user = await _service.GetUserByUserNameAsync(username);
 
-			var content = Request.Form["content"];
+					var content = Request.Form["content"];
 
-			// Sanitize the HTML content
-			var sanitizedContent = SanitizeHtml(content);
+					// Sanitize the HTML content
+					var sanitizedContent = SanitizeHtml(content);
 
-			await _service.CreatePostAsync(
-				newPost.Title.ToUpper(),
-				sanitizedContent, // Use the sanitized content
-				user.Id,
-				user.Username,
-				imageUrl
-			);
-			ModelState.Clear();
-			ViewBag.Message = "Post created successfully";
+					await _service.CreatePostAsync(
+						newPost.Title.ToUpper(),
+						sanitizedContent, // Use the sanitized content
+						user.Id,
+						user.Username,
+						imageUrl
+					);
+					ModelState.Clear();
+					ViewBag.Message = "Post created successfully";
+				}
+				catch (DbUpdateException)
+				{
+					ModelState.AddModelError("", $"error");
+				}
+				return View();
+			}
+
+			return View(newPost);
 		}
-		catch (DbUpdateException)
+
+		// Helper method to sanitize HTML content
+		private string SanitizeHtml(string htmlContent)
 		{
-			ModelState.AddModelError("", $"error");
+			var sanitizer = new HtmlSanitizer();
+			return sanitizer.Sanitize(htmlContent);
 		}
-		return View();
-	}
-
-	return View(newPost);
-}
-
-// Helper method to sanitize HTML content
-private string SanitizeHtml(string htmlContent)
-{
-	var sanitizer = new HtmlSanitizer();
-	return sanitizer.Sanitize(htmlContent);
-}
 
 		private async Task<string> SaveImageAsync(IFormFile imageFile)
 		{
@@ -100,7 +100,7 @@ private string SanitizeHtml(string htmlContent)
 
 					var initialpost = await _service.GetPostByIdAsync(post.Id);
 					var updatedpost = await _service.EditPostAsync(post.Id, post.Title, post.Content, imageUrl);
-					
+
 				}
 				catch (DbUpdateException)
 				{
@@ -112,7 +112,7 @@ private string SanitizeHtml(string htmlContent)
 			return RedirectToAction("UserAccount", "Login");
 		}
 
-		public async Task<IActionResult> DeletePost(int id) 
+		public async Task<IActionResult> DeletePost(int id)
 		{
 			if (ModelState.IsValid)
 			{
@@ -122,7 +122,7 @@ private string SanitizeHtml(string htmlContent)
 			return View();
 		}
 
-		
+
 		public async Task<IActionResult> DeletePostConfirmed(int id)
 		{
 			if (ModelState.IsValid)

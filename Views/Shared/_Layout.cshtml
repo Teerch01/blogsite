@@ -14,10 +14,12 @@
         asp-append-version="true">
     <script src="https://kit.fontawesome.com/1bb79a8e19.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body class="d-flex">
-    <header class="position-fixed" style="width:100%; top:0; z-index: 1000">
+    <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid justify-content-between">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">blogsite</a>
@@ -26,9 +28,10 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            @* <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a> *@
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                            asp-action="Index">Home</a>
                         </li>
                     </ul>
                     @await Html.PartialAsync("_LoginPartial")
