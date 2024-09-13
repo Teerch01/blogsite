@@ -1,0 +1,24 @@
+﻿@model IEnumerable<blogsite.Models.DTO.ResponseDTO.PostResponseDTO>
+
+@{
+    ViewData["Title"] = "Search";
+}
+
+<div class="container index d-flex flex-column justify-content-center align-items-center">
+    @if (Model != null)
+    {
+        @foreach (var item in Model)
+        {
+            <form asp-action="ViewPost" asp-controller="Post" asp-route-itemid="@item.Id" class="card-index">
+                <input type="hidden" name="id" value="@item.Id" />
+                <button class="card-index-body d-flex flex-row">
+                    <div class="content">
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Title)</h5>
+                        <small style="margin: 0; font-size: 13px;">Posted on @item.CreatedOn.ToString("MMMM dd, yyyy")</small>
+                    </div>
+                    <img src="@item.ImageUrl" alt="img">
+                </button>
+            </form>
+        }
+    }
+</div>
