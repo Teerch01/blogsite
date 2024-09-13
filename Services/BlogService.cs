@@ -172,7 +172,9 @@ public class BlogService(BlogContext context) : IBlogService
 
 	public async Task<IEnumerable<Posts>> Search(string searchQuery)
 	{
-		var searchResult = await _context.Posts.AsNoTracking().Where(p => p.Title.Contains(searchQuery) || p.Content.Contains(searchQuery)).ToListAsync();
+		var searchResult = await _context.Posts
+		.AsNoTracking()
+		.Where(p => p.Title.Contains(searchQuery) || p.Content.Contains(searchQuery)).ToListAsync();
 
 		return searchResult;
 	}
