@@ -204,7 +204,7 @@ namespace blogsite.Controllers
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> Search([FromForm]string searchQuery)
+		public async Task<IActionResult> Search(string searchQuery)
 		{
 			try
 			{
