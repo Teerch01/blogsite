@@ -91,14 +91,14 @@ public class BlogService(BlogContext context) : IBlogService
         return await _context.Users.AnyAsync(u => u.Email == email);
     }
 
-    public async Task<Posts> GetPostByIdAsync(int postid)
-    {
-        return await _context.Posts.AsNoTracking().SingleAsync(u => u.Id == postid);
-    }
-
     public async Task<IEnumerable<Posts>> GetPostsAsync()
     {
         return await _context.Posts.AsNoTracking().OrderBy(p => p.CreatedOn).ToListAsync();
+    }
+
+    public async Task<Posts> GetPostByIdAsync(int postid)
+    {
+        return await _context.Posts.AsNoTracking().SingleAsync(u => u.Id == postid);
     }
 
     public async Task<IEnumerable<Posts>> GetPostsOfUserById(Guid id)
@@ -168,5 +168,10 @@ public class BlogService(BlogContext context) : IBlogService
             post.LikedByCurrentUser = true;
             return true;
         }
+    }
+
+    public Task<IEnumerable<Posts>> Search()
+    {
+        throw new NotImplementedException();
     }
 }

@@ -19,6 +19,7 @@ namespace blogsite.Controllers
 		}
 
 		[HttpPost]
+		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> CreatePost(PostRequestDTO newPost)
 		{
 			if (ModelState.IsValid)
