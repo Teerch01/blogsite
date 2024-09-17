@@ -5,11 +5,11 @@
 }
 
 
-<div class="card" style="border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.01); background-color: rgba(255, 255, 255, 0.9);">
-    <div class="card-body d-flex justify-content-center align-items-center"  >
-        <div class="card-body" >
+<div class="card login">
+    <div class="card-body">
+        <div class="card-body">
             <form asp-action="Login">
-        <h1 class="text-center card-title" >Login</h1>
+                <h1 class="card-title">Login</h1>
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group mb-3">
                     <label asp-for="UsernameOrEmail" class="control-label">Username</label>
@@ -21,17 +21,17 @@
                     <input type="password" asp-for="Password" class="form-control" />
                     <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
-                <div class="d-grid" style="padding-top:10px">
+                <div class="d-grid">
                     <input type="submit" value="Login" class="btn btn-primary" />
                 </div>
             </form>
             <div class="text-center mt-3">
-                Don't have an account? <a asp-controller="Register" asp-action="Register" style="text-decoration: none;">
+                Don't have an account? <a asp-controller="Register" asp-action="Register">
                     register
                 </a>
             </div>
         </div>
-        
+
     </div>
 </div>
 
