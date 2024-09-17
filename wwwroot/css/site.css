@@ -214,3 +214,9 @@ iconify-icon {
 .viewpost .container article {
   text-align: justify;
 }
+
+.createpost, .editpost {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  width: 859px;
+}
