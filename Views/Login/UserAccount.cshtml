@@ -4,40 +4,24 @@
     ViewData["Title"] = "UserAccount";
 }
 
-<style>
-    .card-body p {
-    display: -webkit-box;
-    -webkit-line-clamp: 2; 
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-</style>
 <div class="useraccount">
-    <div class="container justify-content-center align-items-center" style="max-width:750px;">
+    <div class="container">
         <h1 class="text-center">Blogs</h1>
         @if (Model != null)
         {
             @foreach (var item in Model)
             {
-                <form asp-action="ViewPost" asp-controller="Post"  asp-route-itemid="@item.Id" class="card-index">
-                <input type="hidden" name="id" value="@item.Id" />
-                <button class="card-index-body d-flex flex-row">
-                    <div class="content">
-                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Title)</h5>
-                        <small style="margin: 0; font-size: 13px;">Posted on @item.CreatedOn.ToString("MMMM dd, yyyy")</small>
-                    </div>
-                    <img src="@item.ImageUrl" alt="img">
-                </button>
-            </form>
+                <form asp-action="ViewPost" asp-controller="Post" asp-route-itemid="@item.Id" class="card-index">
+                    <input type="hidden" name="id" value="@item.Id" />
+                    <button class="card-index-body d-flex flex-row">
+                        <div class="content">
+                            <h5 class="card-title">@Html.DisplayFor(modelItem => item.Title)</h5>
+                            <small>Posted on @item.CreatedOn.ToString("MMMM dd, yyyy")</small>
+                        </div>
+                        <img src="@item.ImageUrl" alt="img">
+                    </button>
+                </form>
             }
         }
     </div>
-
-    @* <div class="container flex-column d-flex justify-content-center align-content-center">
-        <div class="form-group text-center justify-content-center align-items-center">
-            <a class="btn btn-primary" style="margin-right:10px" type="button" asp-controller="Post" asp-action="CreatePost">
-                Create Blog
-            </a>
-        </div>
-    </div> *@
 </div>
