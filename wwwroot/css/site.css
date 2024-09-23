@@ -180,7 +180,9 @@ main {
 }
 
 #side-nav a:hover,
-#side-nav button:hover {
+#side-nav button:hover,
+header ul li a:hover,
+#profile-trigger:hover {
   font-weight: 700;
 }
 
