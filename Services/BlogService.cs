@@ -1,3 +1,5 @@
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using blogsite.Data;
 using blogsite.Models;
 using blogsite.Repository;
@@ -177,5 +179,20 @@ public class BlogService(BlogContext context) : IBlogService
 		.Where(p => p.Title.Contains(searchQuery) || p.Content.Contains(searchQuery)).ToListAsync();
 
 		return searchResult;
+	}
+
+	public string GenerateJwtToken(IEnumerable<Claim> claims, IConfiguration configuration)
+	{
+		var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:key"]));
+		var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
+		var token = new JwtSecurityToken(
+			configuration["Jwt:Issuer"],
+			configuration["Jwt:Audience"],
+			claims,
+			expires: DateTime.UtcNow.AddMinutes(120),
+			signingCredentials: signIn);
+
+		string tokenValue = new JwtSecurityTokenHandler().WriteToken(token);
+		return tokenValue;
 	}
 }

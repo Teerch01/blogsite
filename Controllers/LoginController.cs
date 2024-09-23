@@ -6,86 +6,103 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
 namespace blogsite.Controllers
 {
-    public class LoginController(BlogService service, IMapper mapper) : Controller
-    {
-        private readonly BlogService _service = service;
-        private readonly IMapper _mapper = mapper;
-        public IActionResult Login()
-        {
-            return View();
-        }
+	public class LoginController(BlogService service, IMapper mapper, IConfiguration configuration) : Controller
+	{
+		private readonly IConfiguration _configuration = configuration;
+		private readonly BlogService _service = service;
+		private readonly IMapper _mapper = mapper;
+		public IActionResult Login()
+		{
+			return View();
+		}
 
-        [HttpPost]
-        public async Task<IActionResult> Login(LoginRequestDTO login)
-        {
-            if (ModelState.IsValid)
-            {
-                var user = await _service.AutenticateUserAsync(login.UsernameOrEmail, login.Password);
-                if (user == null)
-                {
-                    ModelState.AddModelError("", "Username/Email or password is incorrect");
-                    return View();
-                }
-                else
-                {
-                    // Success, create cookie
-                    var claims = new List<Claim> {
-                    new(ClaimTypes.Name, user.Username),
-                    new(ClaimTypes.Email, user.Email),
-                    new(ClaimTypes.Sid, user.Id.ToString()),
-                    new(ClaimTypes.Role, "User")
-                    };
+		[HttpPost]
+		[AllowAnonymous]
+		[ValidateAntiForgeryToken]
+		public async Task<IActionResult> Login(LoginRequestDTO login)
+		{
+			if (ModelState.IsValid)
+			{
+				var user = await _service.AutenticateUserAsync(login.UsernameOrEmail, login.Password);
+				if (user != null)
+				{
+					// Success, create cookie
+					var claims = new[]{
+						new Claim(JwtRegisteredClaimNames.Sub,_configuration["Jwt:Subject"]),
+						new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+						new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+						new Claim(ClaimTypes.Name, user.Username),
+						new Claim(ClaimTypes.Email, user.Email),
+						new Claim(ClaimTypes.Role, "User")
+					};
+					
+					var tokenValue = _service.GenerateJwtToken(claims, _configuration
+					);
+					var cookieOptions = new CookieOptions
+					{
+						HttpOnly = true,
+						Secure = true,
+						SameSite = SameSiteMode.Strict,
+						Expires = DateTime.Now.AddMinutes(120),
+					};
+					Response.Cookies.Append("token", tokenValue, cookieOptions);
+					
+					var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+					await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
+					
+					return RedirectToAction("UserAccount");
+				}
+				else
+				{
+					ModelState.AddModelError("", "Username/Email or password is incorrect");
+					return View();
+				}
+			}
+			return View();
+		}
+		
 
-                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
-                    return RedirectToAction("UserAccount");
-                }
-                
-                
-            }
-            return View();
-        }
+		public IActionResult LogOut()
+		{
+			HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
-        public IActionResult LogOut()
-        {
-            HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            
-            return RedirectToAction("Login");
-        }
+			return RedirectToAction("Login");
+		}
 
-        [Authorize]
-        public async Task<IActionResult> UserAccount()
-        {
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    var username = HttpContext.User.Identity.Name;
-                    ViewBag.Name = username;
-                    var user = await _service.GetUserByUserNameAsync(username);
+		[Authorize]
+		public async Task<IActionResult> UserAccount()
+		{
+			if (ModelState.IsValid)
+			{
+				try
+				{
+					var username = HttpContext.User.Identity.Name;
+					ViewBag.Name = username;
+					var user = await _service.GetUserByUserNameAsync(username);
 
-                    var posts = await _service.GetPostsAsync();
-                    if (posts != null)
-                    {
-                        foreach (var post in posts)
-                        {
-                            post.LikedByCurrentUser = await _service.HasUserLikedPost(post.Id, user.Id);
-                        }
-                        return View(posts.Select(_mapper.Map<PostResponseDTO>));
-                    }
-                }
-                catch (Exception)
-                {
-                    ModelState.AddModelError("", "unable to get posts");
-                    return View();
-                }
-            }
+					var posts = await _service.GetPostsAsync();
+					if (posts != null)
+					{
+						foreach (var post in posts)
+						{
+							post.LikedByCurrentUser = await _service.HasUserLikedPost(post.Id, user.Id);
+						}
+						return View(posts.Select(_mapper.Map<PostResponseDTO>));
+					}
+				}
+				catch (Exception)
+				{
+					ModelState.AddModelError("", "unable to get posts");
+					return View();
+				}
+			}
 
-            return View();
-        }
-    }
+			return View();
+		}
+	}
 }
