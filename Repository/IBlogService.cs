@@ -8,6 +8,7 @@ public interface IBlogService
 {
 	Task<IEnumerable<User>> GetUsersAsync();
 	Task<User> GetUserByUserNameAsync(string username);
+	Task<User> GetUserByEmailAsync(string email);
 	Task<IEnumerable<Posts>> GetPostsOfUserById(Guid id);
 	Task<User> CreateUserAsync([FromBody] string firstname, string lastname, string username, string password, string email);
 	Task<bool> UserAlreadyExists(string username);
@@ -23,4 +24,13 @@ public interface IBlogService
 	Task LikePost(int postid, Guid userid);
 	Task<bool> HasUserLikedPost(int postid, Guid userid);
 	string GenerateJwtToken(IEnumerable<Claim> claims, IConfiguration configuration);
+	string GenerateRandomOTP();
+	bool ElaspedOTP(DateTime dateTime);
+	Task DeleteOtp(string email);
+	Task<string> CreateOTPAsync(string email);
+	Task<string> SendOtpToUserEmail(string email);
+	Task SendEmail(string mail, string emailPass, EmailData emailData);
+	Task<bool> VerifyOTPAsync(string otp);
+	string SanitizeHtml(string htmlContent);
+	Task<string> SaveImageAsync(IFormFile imageFile);
 }

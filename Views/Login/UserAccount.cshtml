@@ -1,15 +1,24 @@
-﻿@model IEnumerable<blogsite.Models.DTO.ResponseDTO.PostResponseDTO>
+﻿@model blogsite.Models.IndexViewModel
 
 @{
     ViewData["Title"] = "UserAccount";
 }
 
 <div class="useraccount">
+    <div class="container tag">
+        @foreach (var tag in Model.Tags)
+        {
+            <a href="?tag=@tag" class="btn" id="tag">@tag</a>
+        }
+    </div>
     <div class="container">
-        <h1 class="text-center">Blogs</h1>
+        @if (string.IsNullOrEmpty(Context.Request.Query["tag"]))
+        {
+            <h1 class="text-center">Blogs</h1>
+        }
         @if (Model != null)
         {
-            @foreach (var item in Model)
+            @foreach (var item in Model.Posts)
             {
                 <form asp-action="ViewPost" asp-controller="Post" asp-route-itemid="@item.Id" class="card-index">
                     <input type="hidden" name="id" value="@item.Id" />

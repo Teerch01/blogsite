@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using blogsite.Models;
 using blogsite.Models.DTO.RequestDTO;
 using blogsite.Models.DTO.ResponseDTO;
 using blogsite.Services;
@@ -29,7 +30,14 @@ namespace blogsite.Controllers
 			if (ModelState.IsValid)
 			{
 				var user = await _service.AutenticateUserAsync(login.UsernameOrEmail, login.Password);
-				if (user != null)
+
+				if (user == null)
+				{
+					ModelState.AddModelError("", "Username/Email or password is incorrect");
+					return View();
+				}
+
+				if (user.Verified)
 				{
 					// Success, create cookie
 					var claims = new[]{
@@ -40,7 +48,7 @@ namespace blogsite.Controllers
 						new Claim(ClaimTypes.Email, user.Email),
 						new Claim(ClaimTypes.Role, "User")
 					};
-					
+
 					var tokenValue = _service.GenerateJwtToken(claims, _configuration
 					);
 					var cookieOptions = new CookieOptions
@@ -51,21 +59,20 @@ namespace blogsite.Controllers
 						Expires = DateTime.Now.AddMinutes(120),
 					};
 					Response.Cookies.Append("token", tokenValue, cookieOptions);
-					
+
 					var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 					await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
-					
+
 					return RedirectToAction("UserAccount");
 				}
 				else
 				{
-					ModelState.AddModelError("", "Username/Email or password is incorrect");
-					return View();
+					ModelState.AddModelError("", "User not Verified. Please Verify Account");
 				}
 			}
 			return View();
 		}
-		
+
 
 		public IActionResult LogOut()
 		{
@@ -75,31 +82,39 @@ namespace blogsite.Controllers
 		}
 
 		[Authorize]
-		public async Task<IActionResult> UserAccount()
+		public async Task<IActionResult> UserAccount(string tag)
 		{
-			if (ModelState.IsValid)
+			try
 			{
-				try
-				{
-					var username = HttpContext.User.Identity.Name;
-					ViewBag.Name = username;
-					var user = await _service.GetUserByUserNameAsync(username);
+				var username = HttpContext.User.Identity.Name;
+				ViewBag.Name = username;
+				var user = await _service.GetUserByUserNameAsync(username);
 
-					var posts = await _service.GetPostsAsync();
-					if (posts != null)
-					{
-						foreach (var post in posts)
-						{
-							post.LikedByCurrentUser = await _service.HasUserLikedPost(post.Id, user.Id);
-						}
-						return View(posts.Select(_mapper.Map<PostResponseDTO>));
-					}
-				}
-				catch (Exception)
+				var posts = string.IsNullOrEmpty(tag)
+			? await service.GetPostsAsync()
+			: await service.GetPostsbyTagAsync(tag);
+
+				var tags = await service.GetAllTagsAsync();
+
+				if (posts != null)
 				{
-					ModelState.AddModelError("", "unable to get posts");
-					return View();
+					foreach (var post in posts)
+					{
+						post.LikedByCurrentUser = await _service.HasUserLikedPost(post.Id, user.Id);
+					}
+					var viewModel = new IndexViewModel
+
+					{
+						Posts = posts.Select(_mapper.Map<PostResponseDTO>),
+						Tags = tags
+					};
+					return View(viewModel);
 				}
+			}
+			catch (Exception)
+			{
+				ModelState.AddModelError("", "unable to get posts");
+				return View();
 			}
 
 			return View();

@@ -8,5 +8,7 @@ public class User : Time
 	public string? Email { get; set; }
 	public string? Username { get; set; }
 	public string? Password { get; set; }
+	public bool Verified {get; set;}
 	public virtual ICollection<Posts>? Posts { get; set; }
+	public virtual ICollection<OTP>? Otp { get; set; }
 }

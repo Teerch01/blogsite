@@ -41,11 +41,49 @@ body .main-container {
 
 main {
   min-height: 100vh;
+  justify-content: center;
+}
+
+.main-index {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4.5rem;
+  margin-bottom: 4rem;
+}
+
+.main-index .tag,
+.useraccount .tag {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  width: 100%;
+  background-color: white;
+  top: 3.5rem;
+}
+
+.main-index .tag .btn,
+.useraccount .tag .btn {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(242, 242, 242) !important;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.main-index .tag .btn:hover,
+.useraccount .tag .btn:hover {
+  background-color: rgb(180, 180, 180) !important;
 }
 
 .index {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.index .title {
+  margin-top: 1rem;
 }
 
 .index h1,
@@ -56,7 +94,7 @@ main {
 .index .card-index,
 .useraccount .container .card-index {
   flex: 0 0 30%;
-  margin: 10px;
+  margin: 2px;
   width: 500px;
   height: 150px;
   border-radius: 10px;
@@ -96,7 +134,7 @@ main {
 }
 
 .useraccount {
-  margin-top: 4rem;
+  margin-top: 4.5rem;
   margin-bottom: 4rem;
 }
 
@@ -215,9 +253,11 @@ iconify-icon {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
   background-color: rgba(255, 255, 255, 0.9);
+  align-self: center;
 }
 
-.register .card-body .c-body {
+.register .card-body .c-body,
+.verifyaccount .card-body .c-body {
   padding: 5px;
   margin: 0;
   width: 100%;
@@ -251,6 +291,23 @@ iconify-icon {
   text-align: justify;
 }
 
+.createpost #titlename {
+  margin-bottom: 0.8rem;
+}
+
+.createpost .imagefile {
+  margin-top: 0.8rem;
+}
+
+.createpost .cancel {
+  margin-right: 6px;
+}
+
+.createpost #btn {
+  display: flex;
+  justify-content: end;
+}
+
 .createpost,
 .editpost {
   margin-top: 5rem;
@@ -262,6 +319,7 @@ iconify-icon {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
   background-color: rgba(255, 255, 255, 0.9);
+  align-self: center;
 }
 
 .login .card-body {
@@ -284,8 +342,26 @@ iconify-icon {
   text-decoration: none;
 }
 
+.verifyaccount {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.verifyaccount .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
+  position: fixed !important;
+  width: 100%;
   bottom: 0;
+  z-index: 1000;
+  background-color: white;
 }
 
 footer .container {

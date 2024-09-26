@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using blogsite.Data;
@@ -11,9 +12,11 @@ using blogsite.Data;
 namespace blogsite.Migrations
 {
     [DbContext(typeof(BlogContext))]
-    partial class BlogContextModelSnapshot : ModelSnapshot
+    [Migration("20240924164755_added otp")]
+    partial class addedotp
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -53,9 +56,8 @@ namespace blogsite.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Code")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<int>("Code")
+                        .HasColumnType("integer");
 
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("timestamp with time zone");
@@ -100,9 +102,6 @@ namespace blogsite.Migrations
 
                     b.Property<DateTime>("ModifiedOn")
                         .HasColumnType("timestamp with time zone");
-
-                    b.Property<string>("Tag")
-                        .HasColumnType("text");
 
                     b.Property<string>("Title")
                         .IsRequired()

@@ -7,42 +7,48 @@ using AutoMapper;
 
 namespace blogsite.Controllers;
 
-public class HomeController(ILogger<HomeController> logger, BlogService service, IMapper mapper) : Controller
+public class HomeController(BlogService service, IMapper mapper) : Controller
 {
-    private readonly ILogger<HomeController> _logger = logger;
-    private readonly IMapper _mapper = mapper;
-    private readonly BlogService _service = service;
+	[HttpGet]
+	public async Task<IActionResult> Index(string tag)
+	{
+		try
+		{
+			var posts = string.IsNullOrEmpty(tag)
+			? await service.GetPostsAsync()
+			: await service.GetPostsbyTagAsync(tag);
 
-    public async Task<IActionResult> Index()
-    {
-        if (ModelState.IsValid)
-        {
-            try
-            {
-                var posts = await _service.GetPostsAsync();
-                if (posts != null)
-                {
-                    return View(posts.Select(_mapper.Map<PostResponseDTO>));
-                }
-            }
-            catch (Exception)
-            {
-                ModelState.AddModelError("", "unable to get posts");
-                return View();
-            }
-        }
+			var tags = await service.GetAllTagsAsync();
+			var viewModel = new IndexViewModel
 
-        return View();
-    }
+			{
+				Posts = posts.Select(mapper.Map<PostResponseDTO>),
+				Tags = tags
+			};
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+			if (viewModel != null)
+			{
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
+				return View(viewModel);
+			}
+		}
+		catch (Exception)
+		{
+			ModelState.AddModelError("", "unable to get posts");
+			return View();
+		}
+
+		return View();
+	}
+
+	public IActionResult Privacy()
+	{
+		return View();
+	}
+
+	[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+	public IActionResult Error()
+	{
+		return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+	}
 }

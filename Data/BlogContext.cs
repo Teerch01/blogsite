@@ -7,6 +7,8 @@ public class BlogContext(DbContextOptions<BlogContext> options) : DbContext(opti
 	public DbSet<User> Users { get; set; }
 	public DbSet<Posts> Posts { get; set; }
 	public DbSet<Likes> Likes { get; set; }
+	public DbSet<OTP> OTPs { get; set; }
+
 
 	protected override void OnModelCreating(ModelBuilder modelBuilder)
 	{
@@ -24,7 +26,7 @@ public class BlogContext(DbContextOptions<BlogContext> options) : DbContext(opti
 		modelBuilder.Entity<User>().Property(x => x.FirstName).IsRequired();
 		modelBuilder.Entity<User>().Property(x => x.LastName).IsRequired();
 
-		
+
 		modelBuilder.Entity<Posts>().HasKey(x => x.Id);
 		modelBuilder.Entity<Posts>().Property(x => x.Id).ValueGeneratedOnAdd();
 		modelBuilder.Entity<Posts>().Property(x => x.Title).IsRequired();
@@ -34,6 +36,9 @@ public class BlogContext(DbContextOptions<BlogContext> options) : DbContext(opti
 		modelBuilder.Entity<Likes>().HasKey(x => x.Id);
 		modelBuilder.Entity<Likes>().Property(x => x.Id).ValueGeneratedOnAdd();
 
+		modelBuilder.Entity<OTP>().HasKey(x => x.Id);
+		modelBuilder.Entity<OTP>().Property(x => x.Id).ValueGeneratedOnAdd();
+
 
 		// RELATIONSHIP
 		modelBuilder
@@ -42,6 +47,13 @@ public class BlogContext(DbContextOptions<BlogContext> options) : DbContext(opti
 			.WithOne(x => x.User)
 			.HasForeignKey(x => x.UserId)
 			.OnDelete(DeleteBehavior.Restrict);
+
+
+		modelBuilder.Entity<User>()
+			.HasMany(x => x.Otp)
+			.WithOne(x => x.User)
+			.HasForeignKey(x => x.UserId)
+			.OnDelete(DeleteBehavior.Cascade);
 	}
-	
+
 }

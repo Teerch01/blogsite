@@ -3,16 +3,13 @@ using blogsite.Models.DTO.RequestDTO;
 using blogsite.Models.DTO.ResponseDTO;
 using blogsite.Services;
 using Microsoft.AspNetCore.Mvc;
-using Ganss.Xss;
 
 namespace blogsite.Controllers
 {
-	public class PostController(BlogService service, IMapper mapper, IWebHostEnvironment webHost) : Controller
+	public class PostController(BlogService service, IMapper mapper) : Controller
 	{
-		private readonly BlogService _service = service;
-		private readonly IMapper _mapper = mapper;
-		private readonly IWebHostEnvironment _host = webHost;
 
+		[HttpGet]
 		public IActionResult CreatePost()
 		{
 			return View();
@@ -26,17 +23,17 @@ namespace blogsite.Controllers
 			{
 				try
 				{
-					string imageUrl = await SaveImageAsync(newPost.ImageFile);
+					string imageUrl = await service.SaveImageAsync(newPost.ImageFile);
 
 					var username = HttpContext.User.Identity.Name;
-					var user = await _service.GetUserByUserNameAsync(username);
+					var user = await service.GetUserByUserNameAsync(username);
 
 					var content = Request.Form["content"];
 
 					// Sanitize the HTML content
-					var sanitizedContent = SanitizeHtml(content);
+					var sanitizedContent = service.SanitizeHtml(content);
 
-					await _service.CreatePostAsync(
+					await service.CreatePostAsync(
 						newPost.Title.ToUpper(),
 						sanitizedContent, // Use the sanitized content
 						user.Id,
@@ -55,52 +52,29 @@ namespace blogsite.Controllers
 
 			return View(newPost);
 		}
-
-		// Helper method to sanitize HTML content
-		private string SanitizeHtml(string htmlContent)
-		{
-			var sanitizer = new HtmlSanitizer();
-			return sanitizer.Sanitize(htmlContent);
-		}
-
-		private async Task<string> SaveImageAsync(IFormFile imageFile)
-		{
-			if (imageFile == null)
-			{
-				return null;
-			}
-			string webRootPath = _host.WebRootPath;
-			string fileName = Guid.NewGuid().ToString() + "_" + imageFile.FileName;
-			string path = Path.Combine(webRootPath, "images", fileName);
-
-			using (var fileStream = new FileStream(path, FileMode.Create))
-			{
-				await imageFile.CopyToAsync(fileStream);
-			}
-
-			return "/images/" + fileName;
-		}
-
+		
+		[HttpPost]
 		public async Task<IActionResult> EditPost(int id)
 		{
 			if (ModelState.IsValid)
 			{
-				var post = await _service.GetPostByIdAsync(id);
-				return View(_mapper.Map<PostResponseDTO>(post));
+				var post = await service.GetPostByIdAsync(id);
+				return View(mapper.Map<PostResponseDTO>(post));
 			}
 			return View();
 		}
-
+		
+		[HttpPost]
 		public async Task<IActionResult> EditPostConfirmed(PostRequestDTO post)
 		{
 			if (ModelState.IsValid)
 			{
 				try
 				{
-					string imageUrl = await SaveImageAsync(post.ImageFile);
+					string imageUrl = await service.SaveImageAsync(post.ImageFile);
 
-					var initialpost = await _service.GetPostByIdAsync(post.Id);
-					var updatedpost = await _service.EditPostAsync(post.Id, post.Title, post.Content, imageUrl);
+					var initialpost = await service.GetPostByIdAsync(post.Id);
+					var updatedpost = await service.EditPostAsync(post.Id, post.Title, post.Content, imageUrl);
 
 				}
 				catch (DbUpdateException)
@@ -112,23 +86,23 @@ namespace blogsite.Controllers
 
 			return RedirectToAction("UserAccount", "Login");
 		}
-
+		[HttpPost]
 		public async Task<IActionResult> DeletePost(int id)
 		{
 			if (ModelState.IsValid)
 			{
-				var post = await _service.GetPostByIdAsync(id);
-				return View(_mapper.Map<PostResponseDTO>(post));
+				var post = await service.GetPostByIdAsync(id);
+				return View(mapper.Map<PostResponseDTO>(post));
 			}
 			return View();
 		}
 
-
+		[HttpPost]
 		public async Task<IActionResult> DeletePostConfirmed(int id)
 		{
 			if (ModelState.IsValid)
 			{
-				await _service.DeletePostAsync(id);
+				await service.DeletePostAsync(id);
 			}
 			return RedirectToAction("UserAccount", "Login");
 		}
@@ -140,10 +114,10 @@ namespace blogsite.Controllers
 			{
 				try
 				{
-					var post = await _service.GetPostByIdAsync(id);
+					var post = await service.GetPostByIdAsync(id);
 					if (post != null)
 					{
-						return View(_mapper.Map<PostResponseDTO>(post));
+						return View(mapper.Map<PostResponseDTO>(post));
 					}
 				}
 				catch (Exception)
@@ -164,19 +138,19 @@ namespace blogsite.Controllers
 				try
 				{
 					var username = HttpContext.User.Identity.Name;
-					var user = await _service.GetUserByUserNameAsync(username);
+					var user = await service.GetUserByUserNameAsync(username);
 
-					var posts = await _service.GetPostsOfUserById(user.Id);
+					var posts = await service.GetPostsOfUserById(user.Id);
 					if (posts != null)
 					{
 						foreach (var post in posts)
 						{
-							post.LikedByCurrentUser = await _service.HasUserLikedPost(
+							post.LikedByCurrentUser = await service.HasUserLikedPost(
 								post.Id,
 								user.Id
 							);
 						}
-						return View(posts.Select(_mapper.Map<PostResponseDTO>));
+						return View(posts.Select(mapper.Map<PostResponseDTO>));
 					}
 				}
 				catch (Exception)
@@ -193,10 +167,10 @@ namespace blogsite.Controllers
 		public async Task<IActionResult> LikePost(int id)
 		{
 			var username = HttpContext.User.Identity.Name;
-			var user = await _service.GetUserByUserNameAsync(username);
+			var user = await service.GetUserByUserNameAsync(username);
 			if (ModelState.IsValid)
 			{
-				await _service.LikePost(id, user.Id);
+				await service.LikePost(id, user.Id);
 				return Json(new { success = true });
 			}
 
@@ -208,10 +182,10 @@ namespace blogsite.Controllers
 		{
 			try
 			{
-				var result = await _service.Search(searchQuery.ToUpper());
+				var result = await service.Search(searchQuery.ToUpper());
 				if (result != null)
 				{
-					return View(result.Select(_mapper.Map<PostResponseDTO>));
+					return View(result.Select(mapper.Map<PostResponseDTO>));
 				}
 			}
 			catch (Exception)

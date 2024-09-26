@@ -4,6 +4,9 @@ global using Microsoft.IdentityModel.Tokens;
 using blogsite.Data;
 using blogsite.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Hangfire;
+using Hangfire.MySql;
+using System.Transactions;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -32,9 +35,33 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 );
 
 var conn = builder.Configuration.GetConnectionString("DefaultConnection");
+
+var hangconn = builder.Configuration.GetConnectionString("HangfireString");
+
 builder.Services.AddDbContext<BlogContext>(options => options.UseNpgsql(conn));
 
+builder.Services.AddScoped<BackgroundJobClient>();
+
+builder.Services.AddHangfire(
+	config => config.SetDataCompatibilityLevel(CompatibilityLevel.Version_180)
+	.UseSimpleAssemblyNameTypeSerializer()
+	.UseRecommendedSerializerSettings()
+	.UseStorage(new MySqlStorage(hangconn,
+	new MySqlStorageOptions
+	{
+		TransactionIsolationLevel = IsolationLevel.ReadCommitted,
+		QueuePollInterval = TimeSpan.FromSeconds(15),
+		JobExpirationCheckInterval = TimeSpan.FromHours(1),
+		CountersAggregateInterval = TimeSpan.FromMinutes(5),
+		PrepareSchemaIfNecessary = true,
+		DashboardJobListLimit = 50000,
+		TransactionTimeout = TimeSpan.FromMinutes(1),
+		TablesPrefix = "Hangfire"
+	})));
+
 builder.Services.AddScoped<BlogService>();
+builder.Services.AddHangfireServer();
+
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 
@@ -48,7 +75,11 @@ if (!app.Environment.IsDevelopment())
 	app.UseHsts();
 }
 
+app.UseHangfireDashboard("/hangfire");
 app.UseHttpsRedirection();
+
+BackgroundJob.Enqueue(() => Console.WriteLine("Hello world from Hangfire!"));
+
 app.UseStaticFiles();
 
 app.UseRouting();
@@ -60,5 +91,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
 	name: "default",
 	pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapHangfireDashboard("/hangfire");
 
 app.Run();
