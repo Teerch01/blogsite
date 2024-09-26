@@ -11,5 +11,6 @@ public class Posts : Time
 	public string? ImageUrl { get; set; }
 	public bool LikedByCurrentUser { get; set; } = false;
 	public int LikeCount { get; set; }
+	public virtual ICollection<Comments>? Comments { get; set; }
 	public virtual User? User { get; set; }
 }
